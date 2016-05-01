@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
+            <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
+            <respStmt>
+               <resp>Extraction de la base Inist Exodic</resp>
+               <persName>
+                  <forename>Flora</forename>
+                  <surname>Badin</surname>
+               </persName>
+               <persName>
+                  <forename>Nicolas</forename>
+                  <surname>Thouvenin</surname>
+               </persName>
+               <persName>
+                  <forename>Nourdine</forename>
+                  <surname>Combo</surname>
+               </persName>
+               <persName>
+                  <forename>Sabine</forename>
+                  <surname>Barreaux</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Atilf</orgName>
+               <orgName>Inist-CNRS</orgName>
+               <orgName>Lina</orgName>
+               <orgName>Inria</orgName>
+               <orgName>Lidilem</orgName>
+            </authority>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                  <p>Any re-use of this resource should attribute its content to <q>ANR-12-CORD-0029</q>
+                  </p>
+               </licence>
+               <licence>
+                  <p>Selon la convention signée avec l'éditeur, le présent document n'est utilisable que par les partenaires du projet TermITH dans le cadre des traitements développés pour TermITH.</p>
+                  <p>Ce document n'est pas diffusable en l'état.</p>
+               </licence>
+            </availability>
+            <idno type="documentnumber">524-06-10299</idno>
+            <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct type="article">
+               <analytic>
+                  <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
+                  <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
+                  <author>
+                     <persName>
+                        <forename>Lorenza</forename>
+                        <surname>MONDADA</surname>
+                     </persName>
+                     <affiliation>
+                        <orgName>Université Lyon 2-ICAR</orgName>
+                        <address>
+                           <country>FRA</country>
+                        </address>
+                     </affiliation>
+                  </author>
+                  <author>
+                     <persName>
+                        <forename>Véronique</forename>
+                        <surname>TRAVERSO</surname>
+                     </persName>
+                     <affiliation>
+                        <orgName>CNRS-ICAR</orgName>
+                        <address>
+                           <country>FRA</country>
+                        </address>
+                     </affiliation>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j" type="main">Lidil (Grenoble)</title>
+                  <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
+                  <idno type="issn">1146-6480</idno>
+                  <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
+                  <author>
+                     <persName>
+                        <forename>Marie</forename>
+                        <surname>SAVELLI</surname>
+                        <roleName>Editeur scientifique</roleName>
+                     </persName>
+                     <affiliation>
+                        <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
+                        <address>
+                           <country>FRA</country>
+                        </address>
+                     </affiliation>
+                  </author>
+                  <meeting/>
+                  <imprint>
+                     <pubPlace>
+                        <settlement>Grenoble</settlement>
+                        <country>FRA</country>
+                     </pubPlace>
+                     <biblScope unit="issue">31</biblScope>
+                     <biblScope unit="pp" from="35" to="59">35-59</biblScope>
+                     <date type="published" when="2005">2005</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">fre</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="cc">
+               <term>52456</term>
+               <term>Sémantique et pragmatique.</term>
+               <term>524XI</term>
+               <term>ETUDES DESCRIPTIVES ET APPLICATIONS DES THEORIES</term>
+               <term>524</term>
+               <term>LINGUISTIQUE</term>
+            </keywords>
+            <keywords scheme="inist-francis" xml:lang="fr">
+               <term xml:id="ikwfr1" type="controlled" corresp="#French">Français</term>
+               <term xml:id="ikwfr2" type="controlled" corresp="#Gesture">Geste</term>
+               <term xml:id="ikwfr3" type="controlled" corresp="#Corpusanalysis">Analyse de corpus</term>
+               <term xml:id="ikwfr4" type="controlled" corresp="#Verbalinteraction">Interaction verbale</term>
+               <term xml:id="ikwfr5" type="controlled" corresp="#Spokendiscourse">Discours oral</term>
+               <term xml:id="ikwfr6" type="controlled" corresp="#Alignment">Alignement</term>
+               <term xml:id="ikwfr7" type="controlled" corresp="#Discourseanalysis">Analyse du discours</term>
+               <term xml:id="ikwfr8" type="controlled" corresp="#Pragmatics">Pragmatique</term>
+            </keywords>
+            <keywords scheme="inist-francis" xml:lang="en">
+               <term type="controlled" xml:id="French">French</term>
+               <term type="controlled" xml:id="Gesture">Gesture</term>
+               <term type="controlled" xml:id="Corpusanalysis">Corpus analysis</term>
+               <term type="controlled" xml:id="Verbalinteraction">Verbal interaction</term>
+               <term type="controlled" xml:id="Spokendiscourse">Spoken discourse</term>
+               <term type="controlled" xml:id="Alignment">Alignment</term>
+               <term type="controlled" xml:id="Discourseanalysis">Discourse analysis</term>
+               <term type="controlled" xml:id="Pragmatics">Pragmatics</term>
+            </keywords>
+         </textClass>
+         <abstract xml:lang="fr">
+            <p>Les As. assument un objectif double : travailler sur des données orales interactionnelles - des corpus oraux de parole en interaction recueillis dans des contextes ordinaires non provoqués par les chercheurs -, et adopter une perspective qui accorde une place fondamentale à l'organisation interactionnelle de cette parole. Elles se penchent sur un phénomène interactionnel bien identifié dans les corpus analysés, et «qui concerne la réalisation collective de la clôture et l'ouverture de la phase suivante notamment dans les interactions professionnelles ou institutionnelles...». Les observations menées sont d'autant plus intéressantes qu'elles touchent un ensemble de dimensions fondamentales de l'organisation de l'interaction menée par les locuteurs. Elles portent sur le caractère reconnaissable du découpage de l'activité en phases distinctes et des moyens mis en œuvre pour délimiter les découpages phrastiques ; sur les modalités et les ressources (verbales et visuelles) qu'utilisent les interactants pour organiser leur arrivée conjointe à certains points structurants de l'activité et notamment à la fin d'une séquence. L'article pose la question de la généralisation de telles observations et de ce qu'elles peuvent nous apprendre sur le contexte des interactions</p>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>TermITH est un projet ANR sur 3 ans et demi (2013 - 2016) qui a pour objectif de développer une plateforme d'indexation automatique de textes en sciences humaines et sociales en fançais en s'appuyant sur les termes qu'ils contiennent.</p>
+            <p>Le présent document fait partie du corpus disciplinaire sur lequel les diffférents traittements développés dans TermITH sont testés.</p>
+            <p>Le présent document est le résultat de la fusion entre l'article en texte intégral provenant de l'editeur et sa notice bibliographique provenant de l'INIST-CNRS.</p>
+            <p>La fusion entre la notice et son article est réalisée par Sabine Barreaux.</p>
+         </projectDesc>
+         <editorialDecl>
+            <normalization>
+               <p>La notice bibliographique de l'INIST-CNRS figure dans l'entête(teiHeader)du présent document. Les métadonnées provenant de l'éditeur de l'article sont transférées vers l'élément titlePage.</p>
+               <p>Le transfert des informations du teiHeader de l'article est réalisé par Nourdine Combo.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+  </teiHeader>
+   <ns:standOff xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal"
+                type="lexiqueTransdisciplinaire">
+      <ns:soHeader>
+         <encodingDesc>
+            <appInfo>
+               <application ident="Termith" version="1.0">
+                  <label>atilf:termith:phase15:lexiqueTransdisciplinaire</label>
+               </application>
+            </appInfo>
+         </encodingDesc>
+         <titleStmt>
+            <title>syntagmesDefinis</title>
+            <author role="LexiqueTransdisciplinaireDectection">atilf</author>
+         </titleStmt>
+      </ns:soHeader>
+      <ns:annotations>
+         <span target="#t1" lemma="corpus" corresp="#transdisc-169"/>
+         <span target="#t85 #t86" lemma="de plein" corresp="#transdisc-2180"/>
+         <span target="#t280 #t281" lemma="tant que" corresp="#transdisc-2407"/>
+         <span target="#t288 #t289" lemma="grâce à" corresp="#transdisc-1988"/>
+         <span target="#t362 #t363" lemma="grâce à" corresp="#transdisc-1988"/>
+      </ns:annotations>
+   </ns:standOff>
+</TEI>
