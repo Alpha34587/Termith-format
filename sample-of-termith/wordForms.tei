@@ -182,65 +182,7 @@
                </availability>
             </publicationStmt>
             <sourceDesc>
-               <biblStruct type="article">
-                  <analytic>
-                     <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                     <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                     <author>
-                        <persName>
-                           <forename>Lorenza</forename>
-                           <surname>MONDADA</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Lyon 2-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <author>
-                        <persName>
-                           <forename>Véronique</forename>
-                           <surname>TRAVERSO</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>CNRS-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j" type="main">Lidil (Grenoble)</title>
-                     <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                     <idno type="issn">1146-6480</idno>
-                     <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                     <author>
-                        <persName>
-                           <forename>Marie</forename>
-                           <surname>SAVELLI</surname>
-                           <roleName>Editeur scientifique</roleName>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <meeting/>
-                     <imprint>
-                        <pubPlace>
-                           <settlement>Grenoble</settlement>
-                           <country>FRA</country>
-                        </pubPlace>
-                        <biblScope unit="issue">31</biblScope>
-                        <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                        <date type="published" when="2005">2005</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
          <encodingDesc>
@@ -252,16 +194,66 @@
          </encodingDesc>
       </teiHeader>
       <ns:listAnnotation>
-         <annotationBlock>
-            <span target="#t1" pos="NOM" lemma="corpus"
-                  corresp="dictionnaire_TLFiCategoriesTEI#l19339"/>
-            <span target="#t2" pos="PRP" lemma="de" corresp="#noTS"/>
-            <span target="#t3" pos="NOM" lemma="langue"
-                  corresp="dictionnaire_TLFiCategoriesTEI#l42601"/>
-            <span target="#t4" pos="VER:pper" lemma="parler"
-                  corresp="dictionnaire_TLFiCategoriesTEI#l54448"/>
-            <span target="#t5" pos="PRP" lemma="en" corresp="#noTS"/>
-         </annotationBlock>
+         <span corresp="dictionnaire_TLFiCategoriesTEI#l19339">
+            <fs>
+               <f name="lemma">
+                  <symbol value="corpus"/>
+               </f>
+            </fs>
+            <fs>
+               <f name="pos">
+                  <symbol value="NOM"/>
+               </f>
+            </fs>
+         </span>
+         <span corresp="#noTS">
+            <fs>
+               <f name="lemma">
+                  <symbol value="de"/>
+               </f>
+            </fs>
+            <fs>
+               <f name="pos">
+                  <symbol value="PRP"/>
+               </f>
+            </fs>
+         </span>
+         <span corresp="dictionnaire_TLFiCategoriesTEI#l42601">
+            <fs>
+               <f name="lemma">
+                  <symbol value="langue"/>
+               </f>
+            </fs>
+            <fs>
+               <f name="pos">
+                  <symbol value="NOM"/>
+               </f>
+            </fs>
+         </span>
+         <span corresp="dictionnaire_TLFiCategoriesTEI#l54448">
+            <fs>
+               <f name="lemma">
+                  <symbol value="parler"/>
+               </f>
+            </fs>
+            <fs>
+               <f name="pos">
+                  <symbol value="VER:pper"/>
+               </f>
+            </fs>
+         </span>
+         <span corresp="#noTS">
+            <fs>
+               <f name="lemma">
+                  <symbol value="en"/>
+               </f>
+            </fs>
+            <fs>
+               <f name="pos">
+                  <symbol value="PRP"/>
+               </f>
+            </fs>
+         </span>
       </ns:listAnnotation>
    </ns:standOff>
 </TEI>

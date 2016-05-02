@@ -13,7 +13,6 @@
     </xsl:copy>
   </xsl:template>
 
-
   <xsl:template match="@* | processing-instruction() | comment()">
 	<xsl:copy/>
   </xsl:template>
@@ -22,24 +21,11 @@
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
   
+  <!-- traitement du header -->
   <xsl:template match="ns:soHeader">
     <xsl:element name="teiHeader">
       <xsl:apply-templates select="@* | node()"/>
     </xsl:element>
-  </xsl:template>
-
-  <xsl:template match="tei:span/@corresp">
-    <xsl:attribute name="corresp">
-      <xsl:value-of select="replace(.,'-#',' #')"/>
-    </xsl:attribute>
-  </xsl:template>
-
-  <xsl:template match="ns:annotations">
-    <ns:listAnnotation>
-      <annotationBlock>
-	<xsl:apply-templates select="@* | node()"/>
-      </annotationBlock>
-    </ns:listAnnotation>
   </xsl:template>
 
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
@@ -63,9 +49,50 @@
 	</availability>
       </xsl:element>
       
-    <xsl:copy-of select="/tei:TEI/tei:teiHeader//tei:sourceDesc"/>
+      <xsl:element name="sourceDesc">
+	<p>annotation générée automatiquement dans le cadre du projet TermITH</p>
+      </xsl:element>
     </xsl:element>
     <xsl:copy-of select="preceding-sibling::tei:encodingDesc"/>
+  </xsl:template>
+
+  <!-- traitement des annotations -->
+  <xsl:template match="tei:span">
+    <xsl:copy>
+	<xsl:attribute name="corresp">
+	<xsl:value-of select="replace(@corresp,'-#',' #')"/>
+	</xsl:attribute>
+	<xsl:if test="@lemma">
+	<fs>
+	    <f>
+	      <xsl:attribute name="name" select="'lemma'"/>
+	      <symbol>
+		<xsl:attribute name="value">
+		  <xsl:value-of select="@lemma"/>
+		</xsl:attribute>
+	      </symbol>
+	    </f>
+	</fs>
+	</xsl:if>
+	<xsl:if test="@pos">
+	<fs>
+	    <f>
+	      <xsl:attribute name="name" select="'pos'"/>
+	      <symbol>
+		<xsl:attribute name="value">
+		  <xsl:value-of select="@pos"/>
+		</xsl:attribute>
+	      </symbol>
+	    </f>
+	</fs>
+	</xsl:if>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="ns:annotations">
+    <ns:listAnnotation>
+	<xsl:apply-templates select="@* | node()"/>
+    </ns:listAnnotation>
   </xsl:template>
 
 </xsl:stylesheet>

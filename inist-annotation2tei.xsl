@@ -21,19 +21,21 @@
   <xsl:template match="text()">
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
-  
+
+  <!--traitement du header -->
   <xsl:template match="ns:soHeader">
     <xsl:element name="teiHeader">
       <xsl:apply-templates select="@* | node()"/>
     </xsl:element>
   </xsl:template>
 
-  <xsl:template match="tei:span/@corresp">
-    <xsl:attribute name="corresp">
-      <xsl:value-of select="replace(.,'-#',' #')"/>
-    </xsl:attribute>
+  <xsl:template match="tei:textDesc">
+    <channel>
+      <xsl:attribute name="mode" select="'w'"/>
+    </channel>
+    <xsl:copy-of select="tei:domain"/>
+    <xsl:copy-of select="tei:purpose"/>
   </xsl:template>
-
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
   
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">
@@ -54,18 +56,49 @@
 		    </p>
 		</licence>
 	</availability>
-      </xsl:element> 
-    <xsl:copy-of select="/tei:TEI/tei:teiHeader//tei:sourceDesc"/>
+      </xsl:element>
+      <xsl:element name="sourceDesc">
+	<p>annotation générée automatiquement dans le cadre du projet TermITH</p>
+      </xsl:element>
     </xsl:element>
-    <xsl:copy-of select="preceding-sibling::tei:encodingDesc"/>
+  </xsl:template>
+
+  <!-- traitement des annotations -->
+  
+  <xsl:template match="tei:span">
+    <xsl:copy>
+      <xsl:copy-of select="@from"/>
+      <xsl:if test="@corresp">
+	<xsl:attribute name="corresp">
+	  <xsl:value-of select="replace(@corresp,'-#',' #')"/>
+	</xsl:attribute>
+      </xsl:if>
+      <xsl:if test="tei:link">
+	<ptr>
+	  <xsl:copy-of select="tei:link/@*"/>
+	</ptr>
+      </xsl:if>
+      <xsl:if test="tei:num">
+	<fs>
+	  <f>
+	    <xsl:attribute name="name" select="tei:num/@type"/>
+	    <numeric>
+	      <xsl:attribute name="value">
+		<xsl:value-of select="tei:num"/>
+	      </xsl:attribute>
+	    </numeric>
+	  </f>
+	</fs>
+      </xsl:if>
+      <xsl:copy-of select="tei:note"/>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template match="ns:annotationGrp | ns:annotationsGrp"/>
 
   <xsl:template match="ns:annotations">
-    <xsl:element name="ns:listAnnotation">
-      <xsl:for-each select="ns:annotationGrp|ns:annotationsGrp">
-	<xsl:element name="annotationBlock">
+    <xsl:for-each select="ns:annotationGrp|ns:annotationsGrp">
+	<xsl:element name="ns:listAnnotation">
 	  <xsl:if test="current()/@type">
 	    <xsl:attribute name="type">
 	      <xsl:value-of select="current()/@type"/>
@@ -74,15 +107,12 @@
 	  <xsl:apply-templates select="@* | node()"/>
 	</xsl:element>
       </xsl:for-each>
-    </xsl:element>
   </xsl:template>
   
   <xsl:template match="ns:annotations[not(ns:annotationGrp | ns:annotationsGrp)]">
     <xsl:element name="ns:listAnnotation">
-      <xsl:element name="annotationBlock">
 	<xsl:apply-templates select="@* | node()"/>
       </xsl:element>
-    </xsl:element>
   </xsl:template>
 
 </xsl:stylesheet>
