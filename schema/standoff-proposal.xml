@@ -140,7 +140,7 @@
                     </remarks>
                 </elementSpec>
 
-		
+
                 <elementSpec ident="annotationBlock" mode="change" module="spoken">
                     <classes mode="change">
                         <memberOf key="model.annotation" mode="add"/>
@@ -155,7 +155,7 @@
                             elements. If this attribute is not supplied, the listAnnotation must be embedded within the complete TEI document to which it applies. </p>
                     </remarks>
                 </elementSpec>
-		
+
                 <classSpec type="model" ident="model.annotation" mode="add" module="standOff">
                     <desc>groups together any kind of element that may be used to annotate an annotable segment</desc>
                 </classSpec>
@@ -169,14 +169,9 @@
                 </elementSpec>
                 
                 <elementSpec ident="span" mode="change" module="analysis">
-                  <classes mode="change">
-		    <memberOf key="model.annotation" mode="add"/>
-		  </classes>
-		  <content>
-		    <rng:zeroOrMore>
-		      <rng:ref name="model.enrichment.termith"/>
-		    </rng:zeroOrMore>
-		  </content>
+                    <classes mode="change">
+                        <memberOf key="model.annotation" mode="add"/>
+                    </classes>
                 </elementSpec>
 
                 <elementSpec ident="seg" mode="change" module="linking">
@@ -251,41 +246,6 @@
                     </classes>
                 </elementSpec>
 
-                <classSpec type="model" ident="model.enrichment.termith" mode="add" module="standOff">
-                    <desc>groups together any kind of element that may be used to annotate an annotable segment. It is an extension for the termith project, it is used to add more expressivity for the span element</desc>
-                </classSpec>
-
-		<!--add new element for the model model.enrichment.termith -->
-                <elementSpec ident="lem" mode="change" module="textcrit">
-                    <classes mode="change">
-                        <memberOf key="model.enrichment.termith" mode="add"/>
-                    </classes>
-                </elementSpec>
-             
-                <elementSpec ident="pos" mode="change" module="dictionaries">
-                    <classes mode="change">
-                        <memberOf key="model.enrichment.termith" mode="add"/>
-                    </classes>
-		</elementSpec>
-
-                <elementSpec ident="note" mode="change" module="core">
-                    <classes mode="change">
-                        <memberOf key="model.enrichment.termith" mode="add"/>
-                    </classes>
-		</elementSpec>
-		
-                <elementSpec ident="link" mode="change" module="linking">
-                    <classes mode="change">
-                        <memberOf key="model.enrichment.termith" mode="add"/>
-                    </classes>
-		</elementSpec>
-
-		
-                <elementSpec ident="num" mode="change" module="core">
-                    <classes mode="change">
-                        <memberOf key="model.enrichment.termith" mode="add"/>
-                    </classes>
-		</elementSpec>
                 <!--graph, listgraph forest, -->
 
                 <!-- Need to exclude our namespace from egXML to prevent "conflicting ID-types for attribute" errors -->
