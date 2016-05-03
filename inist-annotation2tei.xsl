@@ -30,9 +30,6 @@
   </xsl:template>
 
   <xsl:template match="tei:textDesc">
-    <channel>
-      <xsl:attribute name="mode" select="'w'"/>
-    </channel>
     <xsl:copy-of select="tei:domain"/>
     <xsl:copy-of select="tei:purpose"/>
   </xsl:template>
@@ -68,6 +65,7 @@
   <xsl:template match="tei:span">
     <xsl:copy>
       <xsl:copy-of select="@from"/>
+      <xsl:copy-of select="@target"/>
       <xsl:if test="@corresp">
 	<xsl:attribute name="corresp">
 	  <xsl:value-of select="replace(@corresp,'-#',' #')"/>

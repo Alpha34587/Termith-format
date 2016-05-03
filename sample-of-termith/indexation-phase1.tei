@@ -188,10 +188,8 @@
             </sourceDesc>
          </fileDesc>
          <profileDesc>
-            <textDesc>
-               <purpose>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
-               <domain>linguistique</domain>
-            </textDesc>
+            <domain>linguistique</domain>
+            <purpose>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
          </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">

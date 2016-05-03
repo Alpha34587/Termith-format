@@ -184,72 +184,12 @@
                </availability>
             </publicationStmt>
             <sourceDesc>
-               <biblStruct type="article">
-                  <analytic>
-                     <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                     <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                     <author>
-                        <persName>
-                           <forename>Lorenza</forename>
-                           <surname>MONDADA</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Lyon 2-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <author>
-                        <persName>
-                           <forename>Véronique</forename>
-                           <surname>TRAVERSO</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>CNRS-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j" type="main">Lidil (Grenoble)</title>
-                     <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                     <idno type="issn">1146-6480</idno>
-                     <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                     <author>
-                        <persName>
-                           <forename>Marie</forename>
-                           <surname>SAVELLI</surname>
-                           <roleName>Editeur scientifique</roleName>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <meeting/>
-                     <imprint>
-                        <pubPlace>
-                           <settlement>Grenoble</settlement>
-                           <country>FRA</country>
-                        </pubPlace>
-                        <biblScope unit="issue">31</biblScope>
-                        <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                        <date type="published" when="2005">2005</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
-            <textDesc>
-               <purpose>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
-               <domain>linguistique, sciences de l'information, chimie</domain>
-            </textDesc>
+            <domain>linguistique, sciences de l'information, chimie</domain>
+            <purpose>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
          </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
@@ -272,100 +212,32 @@
                   </availability>
                </publicationStmt>
                <sourceDesc>
-                  <biblStruct type="article">
-                     <analytic>
-                        <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                        <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                        <author>
-                           <persName>
-                              <forename>Lorenza</forename>
-                              <surname>MONDADA</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Lyon 2-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <author>
-                           <persName>
-                              <forename>Véronique</forename>
-                              <surname>TRAVERSO</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>CNRS-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j" type="main">Lidil (Grenoble)</title>
-                        <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                        <idno type="issn">1146-6480</idno>
-                        <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                        <author>
-                           <persName>
-                              <forename>Marie</forename>
-                              <surname>SAVELLI</surname>
-                              <roleName>Editeur scientifique</roleName>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <meeting/>
-                        <imprint>
-                           <pubPlace>
-                              <settlement>Grenoble</settlement>
-                              <country>FRA</country>
-                           </pubPlace>
-                           <biblScope unit="issue">31</biblScope>
-                           <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                           <date type="published" when="2005">2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
+                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
-            <encodingDesc>
-               <appInfo>
-                  <application ident="lina-4:notice:topicrank_termsuite:sequences_nom_adj_and_candidats_termes"
-                               version="1.0">
-                     <label>lina-4:notice:topicrank_termsuite:sequences_nom_adj_and_candidats_termes</label>
-                  </application>
-               </appInfo>
-            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <annotationBlock>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw2">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">phase suivante</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw3">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">tour</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-            </annotationBlock>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw2">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">phase suivante</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw3">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">tour</term>
+                  </tig>
+               </langSet>
+            </termEntry>
          </ns:listAnnotation>
          <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
                <fileDesc>
@@ -386,113 +258,87 @@
                      </availability>
                   </publicationStmt>
                   <sourceDesc>
-                     <biblStruct type="article">
-                        <analytic>
-                           <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                           <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                           <author>
-                              <persName>
-                                 <forename>Lorenza</forename>
-                                 <surname>MONDADA</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Lyon 2-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <author>
-                              <persName>
-                                 <forename>Véronique</forename>
-                                 <surname>TRAVERSO</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>CNRS-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                        </analytic>
-                        <monogr>
-                           <title level="j" type="main">Lidil (Grenoble)</title>
-                           <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                           <idno type="issn">1146-6480</idno>
-                           <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                           <author>
-                              <persName>
-                                 <forename>Marie</forename>
-                                 <surname>SAVELLI</surname>
-                                 <roleName>Editeur scientifique</roleName>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <meeting/>
-                           <imprint>
-                              <pubPlace>
-                                 <settlement>Grenoble</settlement>
-                                 <country>FRA</country>
-                              </pubPlace>
-                              <biblScope unit="issue">31</biblScope>
-                              <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                              <date type="published" when="2005">2005</date>
-                           </imprint>
-                        </monogr>
-                     </biblStruct>
+                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
-               <encodingDesc>
-                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
-                        <label>idefix</label>
-                     </application>
-                  </appInfo>
-               </encodingDesc>
             </teiHeader>
-            <ns:listAnnotation>
-               <annotationBlock type="pertinence">
-                  <span from="#mi3kw1">
-                     <num type="pertinence">2</num>
-                  </span>
-                  <span from="#mi3kw2">
-                     <num type="pertinence">0</num>
-                  </span>
-                  <span from="#mi3kw3">
-                     <num type="pertinence">1</num>
-                     <note>(P) Forme préférée dans le texte : tour de parole</note>
-                  </span>
-                  <span from="#mi3kw4">
-                     <num type="pertinence">0</num>
-                  </span>
-                  <span from="#mi3kw5">
-                     <num type="pertinence">2</num>
-                     <link type="INISTForm" target="#ikwfr3"/>
-                  </span>
-               </annotationBlock>
-               <annotationBlock type="silence">
-                  <span from="#ikwfr1">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr2">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr3">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi3kw5"/>
-                  </span>
-                  <span from="#ikwfr4">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr5">
-                     <num type="silence">0</num>
-                     <note>(S) Préférence pour : langue parlée</note>
-                  </span>
-               </annotationBlock>
+            <ns:listAnnotation type="pertinence">
+               <span from="#mi3kw1">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi3kw2">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi3kw3">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="1"/>
+                     </f>
+                  </fs>
+                  <note>(P) Forme préférée dans le texte : tour de parole</note>
+               </span>
+               <span from="#mi3kw4">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi3kw5">
+                  <ptr type="INISTForm" target="#ikwfr3"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+            </ns:listAnnotation>
+            <ns:listAnnotation type="silence">
+               <span from="#ikwfr1">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr2">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr3">
+                  <ptr type="TermithForm" target="#mi3kw5"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr4">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr5">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+                  <note>(S) Préférence pour : langue parlée</note>
+               </span>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -516,99 +362,32 @@
                   </availability>
                </publicationStmt>
                <sourceDesc>
-                  <biblStruct type="article">
-                     <analytic>
-                        <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                        <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                        <author>
-                           <persName>
-                              <forename>Lorenza</forename>
-                              <surname>MONDADA</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Lyon 2-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <author>
-                           <persName>
-                              <forename>Véronique</forename>
-                              <surname>TRAVERSO</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>CNRS-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j" type="main">Lidil (Grenoble)</title>
-                        <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                        <idno type="issn">1146-6480</idno>
-                        <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                        <author>
-                           <persName>
-                              <forename>Marie</forename>
-                              <surname>SAVELLI</surname>
-                              <roleName>Editeur scientifique</roleName>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <meeting/>
-                        <imprint>
-                           <pubPlace>
-                              <settlement>Grenoble</settlement>
-                              <country>FRA</country>
-                           </pubPlace>
-                           <biblScope unit="issue">31</biblScope>
-                           <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                           <date type="published" when="2005">2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
+                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
-            <encodingDesc>
-               <appInfo>
-                  <application ident="lina-4:notice:kea:sequences_nom_adj" version="1.0">
-                     <label>lina-4:notice:kea:sequences_nom_adj</label>
-                  </application>
-               </appInfo>
-            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <annotationBlock>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw1">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">désalignement</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw2">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw3">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">participants</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-            </annotationBlock>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw1">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">désalignement</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw2">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw3">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">participants</term>
+                  </tig>
+               </langSet>
+            </termEntry>
          </ns:listAnnotation>
          <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
                <fileDesc>
@@ -629,112 +408,86 @@
                      </availability>
                   </publicationStmt>
                   <sourceDesc>
-                     <biblStruct type="article">
-                        <analytic>
-                           <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                           <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                           <author>
-                              <persName>
-                                 <forename>Lorenza</forename>
-                                 <surname>MONDADA</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Lyon 2-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <author>
-                              <persName>
-                                 <forename>Véronique</forename>
-                                 <surname>TRAVERSO</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>CNRS-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                        </analytic>
-                        <monogr>
-                           <title level="j" type="main">Lidil (Grenoble)</title>
-                           <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                           <idno type="issn">1146-6480</idno>
-                           <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                           <author>
-                              <persName>
-                                 <forename>Marie</forename>
-                                 <surname>SAVELLI</surname>
-                                 <roleName>Editeur scientifique</roleName>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <meeting/>
-                           <imprint>
-                              <pubPlace>
-                                 <settlement>Grenoble</settlement>
-                                 <country>FRA</country>
-                              </pubPlace>
-                              <biblScope unit="issue">31</biblScope>
-                              <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                              <date type="published" when="2005">2005</date>
-                           </imprint>
-                        </monogr>
-                     </biblStruct>
+                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
-               <encodingDesc>
-                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
-                        <label>idefix</label>
-                     </application>
-                  </appInfo>
-               </encodingDesc>
             </teiHeader>
-            <ns:listAnnotation>
-               <annotationBlock type="pertinence">
-                  <span from="#mi4kw1">
-                     <num type="pertinence">2</num>
-                  </span>
-                  <span from="#mi4kw2">
-                     <num type="pertinence">2</num>
-                  </span>
-                  <span from="#mi4kw3">
-                     <num type="pertinence">0</num>
-                  </span>
-                  <span from="#mi4kw4">
-                     <num type="pertinence">0</num>
-                  </span>
-                  <span from="#mi4kw5">
-                     <num type="pertinence">0</num>
-                  </span>
-               </annotationBlock>
-               <annotationBlock type="silence">
-                  <span from="#ikwfr1">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr2">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr3">
-                     <num type="silence">2</num>
-                     <note>(S) Forme variante dans le texte : corpus</note>
-                  </span>
-                  <span from="#ikwfr4">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi4kw10"/>
-                  </span>
-                  <span from="#ikwfr5">
-                     <num type="silence">0</num>
-                     <note>(S) Préférence pour : langue parlée</note>
-                  </span>
-               </annotationBlock>
+            <ns:listAnnotation type="pertinence">
+               <span from="#mi4kw1">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi4kw2">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi4kw3">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi4kw4">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi4kw5">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+            </ns:listAnnotation>
+            <ns:listAnnotation type="silence">
+               <span from="#ikwfr1">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr2">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr3">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+                  <note>(S) Forme variante dans le texte : corpus</note>
+               </span>
+               <span from="#ikwfr4">
+                  <ptr type="TermithForm" target="#mi4kw10"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr5">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+                  <note>(S) Préférence pour : langue parlée</note>
+               </span>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -758,99 +511,32 @@
                   </availability>
                </publicationStmt>
                <sourceDesc>
-                  <biblStruct type="article">
-                     <analytic>
-                        <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                        <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                        <author>
-                           <persName>
-                              <forename>Lorenza</forename>
-                              <surname>MONDADA</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Lyon 2-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <author>
-                           <persName>
-                              <forename>Véronique</forename>
-                              <surname>TRAVERSO</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>CNRS-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j" type="main">Lidil (Grenoble)</title>
-                        <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                        <idno type="issn">1146-6480</idno>
-                        <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                        <author>
-                           <persName>
-                              <forename>Marie</forename>
-                              <surname>SAVELLI</surname>
-                              <roleName>Editeur scientifique</roleName>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <meeting/>
-                        <imprint>
-                           <pubPlace>
-                              <settlement>Grenoble</settlement>
-                              <country>FRA</country>
-                           </pubPlace>
-                           <biblScope unit="issue">31</biblScope>
-                           <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                           <date type="published" when="2005">2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
+                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
-            <encodingDesc>
-               <appInfo>
-                  <application ident="lina-4:notice:topiccorank:sequences_nom_adj" version="1.0">
-                     <label>lina-4:notice:topiccorank:sequences_nom_adj</label>
-                  </application>
-               </appInfo>
-            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <annotationBlock>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw1">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">français</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw2">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">interaction</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw3">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">pragmatique</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-            </annotationBlock>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw1">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">français</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw2">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">interaction</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw3">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">pragmatique</term>
+                  </tig>
+               </langSet>
+            </termEntry>
          </ns:listAnnotation>
          <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
                <fileDesc>
@@ -871,116 +557,90 @@
                      </availability>
                   </publicationStmt>
                   <sourceDesc>
-                     <biblStruct type="article">
-                        <analytic>
-                           <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                           <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                           <author>
-                              <persName>
-                                 <forename>Lorenza</forename>
-                                 <surname>MONDADA</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Lyon 2-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <author>
-                              <persName>
-                                 <forename>Véronique</forename>
-                                 <surname>TRAVERSO</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>CNRS-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                        </analytic>
-                        <monogr>
-                           <title level="j" type="main">Lidil (Grenoble)</title>
-                           <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                           <idno type="issn">1146-6480</idno>
-                           <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                           <author>
-                              <persName>
-                                 <forename>Marie</forename>
-                                 <surname>SAVELLI</surname>
-                                 <roleName>Editeur scientifique</roleName>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <meeting/>
-                           <imprint>
-                              <pubPlace>
-                                 <settlement>Grenoble</settlement>
-                                 <country>FRA</country>
-                              </pubPlace>
-                              <biblScope unit="issue">31</biblScope>
-                              <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                              <date type="published" when="2005">2005</date>
-                           </imprint>
-                        </monogr>
-                     </biblStruct>
+                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
-               <encodingDesc>
-                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
-                        <label>idefix</label>
-                     </application>
-                  </appInfo>
-               </encodingDesc>
             </teiHeader>
-            <ns:listAnnotation>
-               <annotationBlock type="pertinence">
-                  <span from="#mi5kw1">
-                     <num type="pertinence">2</num>
-                     <link type="INISTForm" target="#ikwfr1"/>
-                  </span>
-                  <span from="#mi5kw2">
-                     <num type="pertinence">1</num>
-                     <link type="preferredForm" target="#mi5kw6"/>
-                  </span>
-                  <span from="#mi5kw3">
-                     <num type="pertinence">2</num>
-                     <link type="INISTForm" target="#ikwfr8"/>
-                  </span>
-                  <span from="#mi5kw4">
-                     <num type="pertinence">0</num>
-                  </span>
-                  <span from="#mi5kw5">
-                     <num type="pertinence">0</num>
-                  </span>
-               </annotationBlock>
-               <annotationBlock type="silence">
-                  <span from="#ikwfr1">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi5kw1"/>
-                  </span>
-                  <span from="#ikwfr2">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr3">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi5kw7"/>
-                  </span>
-                  <span from="#ikwfr4">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi5kw6"/>
-                  </span>
-                  <span from="#ikwfr5">
-                     <num type="silence">0</num>
-                     <note>(S) Préférence pour : langue parlée</note>
-                  </span>
-               </annotationBlock>
+            <ns:listAnnotation type="pertinence">
+               <span from="#mi5kw1">
+                  <ptr type="INISTForm" target="#ikwfr1"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi5kw2">
+                  <ptr type="preferredForm" target="#mi5kw6"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="1"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi5kw3">
+                  <ptr type="INISTForm" target="#ikwfr8"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi5kw4">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi5kw5">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+            </ns:listAnnotation>
+            <ns:listAnnotation type="silence">
+               <span from="#ikwfr1">
+                  <ptr type="TermithForm" target="#mi5kw1"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr2">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr3">
+                  <ptr type="TermithForm" target="#mi5kw7"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr4">
+                  <ptr type="TermithForm" target="#mi5kw6"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr5">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+                  <note>(S) Préférence pour : langue parlée</note>
+               </span>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1004,100 +664,32 @@
                   </availability>
                </publicationStmt>
                <sourceDesc>
-                  <biblStruct type="article">
-                     <analytic>
-                        <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                        <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                        <author>
-                           <persName>
-                              <forename>Lorenza</forename>
-                              <surname>MONDADA</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Lyon 2-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <author>
-                           <persName>
-                              <forename>Véronique</forename>
-                              <surname>TRAVERSO</surname>
-                           </persName>
-                           <affiliation>
-                              <orgName>CNRS-ICAR</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j" type="main">Lidil (Grenoble)</title>
-                        <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                        <idno type="issn">1146-6480</idno>
-                        <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                        <author>
-                           <persName>
-                              <forename>Marie</forename>
-                              <surname>SAVELLI</surname>
-                              <roleName>Editeur scientifique</roleName>
-                           </persName>
-                           <affiliation>
-                              <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                              <address>
-                                 <country>FRA</country>
-                              </address>
-                           </affiliation>
-                        </author>
-                        <meeting/>
-                        <imprint>
-                           <pubPlace>
-                              <settlement>Grenoble</settlement>
-                              <country>FRA</country>
-                           </pubPlace>
-                           <biblScope unit="issue">31</biblScope>
-                           <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                           <date type="published" when="2005">2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
+                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
-            <encodingDesc>
-               <appInfo>
-                  <application ident="lina-4:notice:topiccorank_termsuite:sequences_nom_adj_and_candidats_termes"
-                               version="1.0">
-                     <label>lina-4:notice:topiccorank_termsuite:sequences_nom_adj_and_candidats_termes</label>
-                  </application>
-               </appInfo>
-            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <annotationBlock>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw1">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">français parlé</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw2">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">français</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-               <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw3">
-                  <langSet xml:lang="fr">
-                     <tig>
-                        <term xmlns="http://www.tei-c.org/ns/1.0">pragmatique</term>
-                     </tig>
-                  </langSet>
-               </termEntry>
-            </annotationBlock>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw1">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">français parlé</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw2">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">français</term>
+                  </tig>
+               </langSet>
+            </termEntry>
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw3">
+               <langSet xml:lang="fr">
+                  <tig>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">pragmatique</term>
+                  </tig>
+               </langSet>
+            </termEntry>
          </ns:listAnnotation>
          <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
                <fileDesc>
@@ -1118,117 +710,90 @@
                      </availability>
                   </publicationStmt>
                   <sourceDesc>
-                     <biblStruct type="article">
-                        <analytic>
-                           <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                           <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                           <author>
-                              <persName>
-                                 <forename>Lorenza</forename>
-                                 <surname>MONDADA</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Lyon 2-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <author>
-                              <persName>
-                                 <forename>Véronique</forename>
-                                 <surname>TRAVERSO</surname>
-                              </persName>
-                              <affiliation>
-                                 <orgName>CNRS-ICAR</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                        </analytic>
-                        <monogr>
-                           <title level="j" type="main">Lidil (Grenoble)</title>
-                           <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                           <idno type="issn">1146-6480</idno>
-                           <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                           <author>
-                              <persName>
-                                 <forename>Marie</forename>
-                                 <surname>SAVELLI</surname>
-                                 <roleName>Editeur scientifique</roleName>
-                              </persName>
-                              <affiliation>
-                                 <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                                 <address>
-                                    <country>FRA</country>
-                                 </address>
-                              </affiliation>
-                           </author>
-                           <meeting/>
-                           <imprint>
-                              <pubPlace>
-                                 <settlement>Grenoble</settlement>
-                                 <country>FRA</country>
-                              </pubPlace>
-                              <biblScope unit="issue">31</biblScope>
-                              <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                              <date type="published" when="2005">2005</date>
-                           </imprint>
-                        </monogr>
-                     </biblStruct>
+                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
-               <encodingDesc>
-                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
-                        <label>idefix</label>
-                     </application>
-                  </appInfo>
-               </encodingDesc>
             </teiHeader>
-            <ns:listAnnotation>
-               <annotationBlock type="pertinence">
-                  <span from="#mi6kw1">
-                     <num type="pertinence">2</num>
-                  </span>
-                  <span from="#mi6kw2">
-                     <num type="pertinence">1</num>
-                     <link type="preferredForm" target="#mi6kw1"/>
-                     <link type="INISTForm" target="#ikwfr1"/>
-                  </span>
-                  <span from="#mi6kw3">
-                     <num type="pertinence">2</num>
-                     <link type="INISTForm" target="#ikwfr8"/>
-                  </span>
-                  <span from="#mi6kw4">
-                     <num type="pertinence">1</num>
-                     <link type="preferredForm" target="#mi6kw8"/>
-                  </span>
-                  <span from="#mi6kw5">
-                     <num type="pertinence">0</num>
-                  </span>
-               </annotationBlock>
-               <annotationBlock type="silence">
-                  <span from="#ikwfr1">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi6kw2"/>
-                  </span>
-                  <span from="#ikwfr2">
-                     <num type="silence">2</num>
-                  </span>
-                  <span from="#ikwfr3">
-                     <num type="silence">2</num>
-                     <note>(S) Forme variante dans le texte : corpus</note>
-                  </span>
-                  <span from="#ikwfr4">
-                     <num type="silence">0</num>
-                     <link type="TermithForm" target="#mi6kw8"/>
-                  </span>
-                  <span from="#ikwfr5">
-                     <num type="silence">0</num>
-                     <note>(S) Préférence pour : langue parlée</note>
-                  </span>
-               </annotationBlock>
+            <ns:listAnnotation type="pertinence">
+               <span from="#mi6kw1">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi6kw2">
+                  <ptr type="INISTForm" target="#ikwfr1"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="1"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi6kw3">
+                  <ptr type="INISTForm" target="#ikwfr8"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi6kw4">
+                  <ptr type="preferredForm" target="#mi6kw8"/>
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="1"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#mi6kw5">
+                  <fs>
+                     <f name="pertinence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+            </ns:listAnnotation>
+            <ns:listAnnotation type="silence">
+               <span from="#ikwfr1">
+                  <ptr type="TermithForm" target="#mi6kw2"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr2">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr3">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="2"/>
+                     </f>
+                  </fs>
+                  <note>(S) Forme variante dans le texte : corpus</note>
+               </span>
+               <span from="#ikwfr4">
+                  <ptr type="TermithForm" target="#mi6kw8"/>
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+               </span>
+               <span from="#ikwfr5">
+                  <fs>
+                     <f name="silence">
+                        <numeric value="0"/>
+                     </f>
+                  </fs>
+                  <note>(S) Préférence pour : langue parlée</note>
+               </span>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>

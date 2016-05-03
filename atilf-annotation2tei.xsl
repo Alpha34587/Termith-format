@@ -59,18 +59,33 @@
   <!-- traitement des annotations -->
   <xsl:template match="tei:span">
     <xsl:copy>
+
+      <xsl:if test="@target">
+	<xsl:copy-of select="@target"/>
+      </xsl:if>
+
+
+      <xsl:if test="@corresp">
 	<xsl:attribute name="corresp">
 	<xsl:value-of select="replace(@corresp,'-#',' #')"/>
 	</xsl:attribute>
+	
+      <xsl:if test="@ana">
+	<xsl:copy-of select="@ana"/>
+      </xsl:if>
+      
+      </xsl:if>
 	<xsl:if test="@lemma">
 	<fs>
 	    <f>
 	      <xsl:attribute name="name" select="'lemma'"/>
-	      <symbol>
-		<xsl:attribute name="value">
-		  <xsl:value-of select="@lemma"/>
-		</xsl:attribute>
-	      </symbol>
+	      <xsl:for-each select="tokenize(@lemma,' ')">
+		<symbol>
+		    <xsl:attribute name="value">
+		    <xsl:value-of select="."/>
+		    </xsl:attribute>
+		</symbol>
+	      </xsl:for-each>
 	    </f>
 	</fs>
 	</xsl:if>

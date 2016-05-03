@@ -168,7 +168,7 @@
          <fileDesc>
             <titleStmt>
                <title>syntagmesDefinis</title>
-               <author role="SyntagmesDectection">atilf</author>
+               <author role="SyntagmesDectection">ATILF</author>
             </titleStmt>
             <publicationStmt>
                <distributor>ATILF (Analyse et Traitement Informatique de la Langue Française)</distributor>
@@ -182,65 +182,7 @@
                </availability>
             </publicationStmt>
             <sourceDesc>
-               <biblStruct type="article">
-                  <analytic>
-                     <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                     <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                     <author>
-                        <persName>
-                           <forename>Lorenza</forename>
-                           <surname>MONDADA</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Lyon 2-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <author>
-                        <persName>
-                           <forename>Véronique</forename>
-                           <surname>TRAVERSO</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>CNRS-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j" type="main">Lidil (Grenoble)</title>
-                     <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                     <idno type="issn">1146-6480</idno>
-                     <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                     <author>
-                        <persName>
-                           <forename>Marie</forename>
-                           <surname>SAVELLI</surname>
-                           <roleName>Editeur scientifique</roleName>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <meeting/>
-                     <imprint>
-                        <pubPlace>
-                           <settlement>Grenoble</settlement>
-                           <country>FRA</country>
-                        </pubPlace>
-                        <biblScope unit="issue">31</biblScope>
-                        <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                        <date type="published" when="2005">2005</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
          <encodingDesc>
@@ -252,14 +194,49 @@
          </encodingDesc>
       </teiHeader>
       <ns:listAnnotation>
-         <annotationBlock>
-            <span target="#t17 #t18 #t19" lemma="au sein de" corresp="#syntita-36378"/>
-            <span target="#t83 #t84 #t85 #t86 #t87" lemma="de plein droit"
-                  corresp="#syntita-13719"/>
-            <span target="#t85 #t86 #t87" lemma="de plein droit" corresp="#syntita-13719"/>
-            <span target="#t92 #t93" lemma="entre autres" corresp="#syntita-14698"/>
-            <span target="#t115 #t116 #t117" lemma="d'autre part" corresp="#syntita-3498"/>
-         </annotationBlock>
+         <span target="#t17 #t18 #t19" corresp="#syntita-36378">
+            <fs>
+               <f name="lemma">
+                  <symbol value="au"/>
+                  <symbol value="sein"/>
+                  <symbol value="de"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719">
+            <fs>
+               <f name="lemma">
+                  <symbol value="de"/>
+                  <symbol value="plein"/>
+                  <symbol value="droit"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t85 #t86 #t87" corresp="#syntita-13719">
+            <fs>
+               <f name="lemma">
+                  <symbol value="de"/>
+                  <symbol value="plein"/>
+                  <symbol value="droit"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t92 #t93" corresp="#syntita-14698">
+            <fs>
+               <f name="lemma">
+                  <symbol value="entre"/>
+                  <symbol value="autres"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t115 #t116 #t117" corresp="#syntita-3498">
+            <fs>
+               <f name="lemma">
+                  <symbol value="d'autre"/>
+                  <symbol value="part"/>
+               </f>
+            </fs>
+         </span>
       </ns:listAnnotation>
    </ns:standOff>
 </TEI>

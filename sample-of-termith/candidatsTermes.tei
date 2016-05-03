@@ -182,65 +182,7 @@
                </availability>
             </publicationStmt>
             <sourceDesc>
-               <biblStruct type="article">
-                  <analytic>
-                     <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                     <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                     <author>
-                        <persName>
-                           <forename>Lorenza</forename>
-                           <surname>MONDADA</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Lyon 2-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <author>
-                        <persName>
-                           <forename>Véronique</forename>
-                           <surname>TRAVERSO</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>CNRS-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j" type="main">Lidil (Grenoble)</title>
-                     <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                     <idno type="issn">1146-6480</idno>
-                     <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                     <author>
-                        <persName>
-                           <forename>Marie</forename>
-                           <surname>SAVELLI</surname>
-                           <roleName>Editeur scientifique</roleName>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <meeting/>
-                     <imprint>
-                        <pubPlace>
-                           <settlement>Grenoble</settlement>
-                           <country>FRA</country>
-                        </pubPlace>
-                        <biblScope unit="issue">31</biblScope>
-                        <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                        <date type="published" when="2005">2005</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
          <encodingDesc>
@@ -252,30 +194,59 @@
          </encodingDesc>
       </teiHeader>
       <ns:listAnnotation>
-         <annotationBlock>
-            <interpGrp>
-               <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
-               <interp xml:id="DM2">Occurrence du candidat terme validée au niveau scientifique et syntaxique</interp>
-               <interp xml:id="DM3">Occurrence du candidat terme validée au niveau disciplinaire, scientifique et syntaxique</interp>
-               <interp xml:id="DM4">Occurrence du candidat terme validée sur tous les niveaux d'annotation. Elle est validée au niveau terminologique</interp>
-               <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
-            </interpGrp>
-            <interpGrp>
-               <interp xml:id="DAOn">Occurrence du candidat terme validée au niveau terminologique selon le système de désambiguïsation utilisé</interp>
-               <interp xml:id="DAOff">Occurrence du candidat terme non valide par le système de désambiguïsation</interp>
-            </interpGrp>
-            <span target="#t1 #t2 #t3" lemma="Corpus de Langue" corresp="#TS2.0-entry-87105"
-                  ana="#noDM #noDA"/>
-            <span target="#t1" lemma="Corpus" corresp="#TS2.0-entry-189 #TS1.4-entry-674884"
-                  ana="#DM4 #noDA"/>
-            <span target="#t3 #t4 #t5 #t6" lemma="Langue Parlée en Interaction"
-                  corresp="#TS1.4-entry-3029641"
-                  ana="#DM4 #noDA"/>
-            <span target="#t3 #t4" lemma="Langue Parlée"
-                  corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"
-                  ana="#DM3 #noDA"/>
-            <span target="#t3" lemma="Langue" corresp="#TS1.4-entry-331486" ana="#DM1 #noDA"/>
-         </annotationBlock>
+         <interpGrp>
+            <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
+            <interp xml:id="DM2">Occurrence du candidat terme validée au niveau scientifique et syntaxique</interp>
+            <interp xml:id="DM3">Occurrence du candidat terme validée au niveau disciplinaire, scientifique et syntaxique</interp>
+            <interp xml:id="DM4">Occurrence du candidat terme validée sur tous les niveaux d'annotation. Elle est validée au niveau terminologique</interp>
+            <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
+         </interpGrp>
+         <interpGrp>
+            <interp xml:id="DAOn">Occurrence du candidat terme validée au niveau terminologique selon le système de désambiguïsation utilisé</interp>
+            <interp xml:id="DAOff">Occurrence du candidat terme non valide par le système de désambiguïsation</interp>
+         </interpGrp>
+         <span target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105" ana="#noDM #noDA">
+            <fs>
+               <f name="lemma">
+                  <symbol value="Corpus"/>
+                  <symbol value="de"/>
+                  <symbol value="Langue"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t1" corresp="#TS2.0-entry-189 #TS1.4-entry-674884" ana="#DM4 #noDA">
+            <fs>
+               <f name="lemma">
+                  <symbol value="Corpus"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641" ana="#DM4 #noDA">
+            <fs>
+               <f name="lemma">
+                  <symbol value="Langue"/>
+                  <symbol value="Parlée"/>
+                  <symbol value="en"/>
+                  <symbol value="Interaction"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t3 #t4" corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"
+               ana="#DM3 #noDA">
+            <fs>
+               <f name="lemma">
+                  <symbol value="Langue"/>
+                  <symbol value="Parlée"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t3" corresp="#TS1.4-entry-331486" ana="#DM1 #noDA">
+            <fs>
+               <f name="lemma">
+                  <symbol value="Langue"/>
+               </f>
+            </fs>
+         </span>
       </ns:listAnnotation>
    </ns:standOff>
 </TEI>

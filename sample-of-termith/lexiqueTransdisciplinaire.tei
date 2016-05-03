@@ -182,65 +182,7 @@
                </availability>
             </publicationStmt>
             <sourceDesc>
-               <biblStruct type="article">
-                  <analytic>
-                     <title type="main" xml:lang="fr">(Dés)alignements en clôture : Une étude interactionnelle de corpus de français parlé en interaction</title>
-                     <title type="alt" xml:lang="en">Alignments in closure: Interactional study of corpora of spoken French in interaction</title>
-                     <author>
-                        <persName>
-                           <forename>Lorenza</forename>
-                           <surname>MONDADA</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Lyon 2-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <author>
-                        <persName>
-                           <forename>Véronique</forename>
-                           <surname>TRAVERSO</surname>
-                        </persName>
-                        <affiliation>
-                           <orgName>CNRS-ICAR</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j" type="main">Lidil (Grenoble)</title>
-                     <title level="j" type="sup" xml:lang="fr">Corpus oraux et diversité des approches</title>
-                     <idno type="issn">1146-6480</idno>
-                     <idno type="url">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=17004271</idno>
-                     <author>
-                        <persName>
-                           <forename>Marie</forename>
-                           <surname>SAVELLI</surname>
-                           <roleName>Editeur scientifique</roleName>
-                        </persName>
-                        <affiliation>
-                           <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
-                           <address>
-                              <country>FRA</country>
-                           </address>
-                        </affiliation>
-                     </author>
-                     <meeting/>
-                     <imprint>
-                        <pubPlace>
-                           <settlement>Grenoble</settlement>
-                           <country>FRA</country>
-                        </pubPlace>
-                        <biblScope unit="issue">31</biblScope>
-                        <biblScope unit="pp" from="35" to="59">35-59</biblScope>
-                        <date type="published" when="2005">2005</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
          <encodingDesc>
@@ -252,13 +194,45 @@
          </encodingDesc>
       </teiHeader>
       <ns:listAnnotation>
-         <annotationBlock>
-            <span target="#t1" lemma="corpus" corresp="#transdisc-169"/>
-            <span target="#t85 #t86" lemma="de plein" corresp="#transdisc-2180"/>
-            <span target="#t280 #t281" lemma="tant que" corresp="#transdisc-2407"/>
-            <span target="#t288 #t289" lemma="grâce à" corresp="#transdisc-1988"/>
-            <span target="#t362 #t363" lemma="grâce à" corresp="#transdisc-1988"/>
-         </annotationBlock>
+         <span target="#t1" corresp="#transdisc-169">
+            <fs>
+               <f name="lemma">
+                  <symbol value="corpus"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t85 #t86" corresp="#transdisc-2180">
+            <fs>
+               <f name="lemma">
+                  <symbol value="de"/>
+                  <symbol value="plein"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t280 #t281" corresp="#transdisc-2407">
+            <fs>
+               <f name="lemma">
+                  <symbol value="tant"/>
+                  <symbol value="que"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t288 #t289" corresp="#transdisc-1988">
+            <fs>
+               <f name="lemma">
+                  <symbol value="grâce"/>
+                  <symbol value="à"/>
+               </f>
+            </fs>
+         </span>
+         <span target="#t362 #t363" corresp="#transdisc-1988">
+            <fs>
+               <f name="lemma">
+                  <symbol value="grâce"/>
+                  <symbol value="à"/>
+               </f>
+            </fs>
+         </span>
       </ns:listAnnotation>
    </ns:standOff>
 </TEI>

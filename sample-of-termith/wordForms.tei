@@ -194,7 +194,7 @@
          </encodingDesc>
       </teiHeader>
       <ns:listAnnotation>
-         <span corresp="dictionnaire_TLFiCategoriesTEI#l19339">
+         <span target="#t1" corresp="dictionnaire_TLFiCategoriesTEI#l19339">
             <fs>
                <f name="lemma">
                   <symbol value="corpus"/>
@@ -206,7 +206,7 @@
                </f>
             </fs>
          </span>
-         <span corresp="#noTS">
+         <span target="#t2" corresp="#noTS">
             <fs>
                <f name="lemma">
                   <symbol value="de"/>
@@ -218,7 +218,7 @@
                </f>
             </fs>
          </span>
-         <span corresp="dictionnaire_TLFiCategoriesTEI#l42601">
+         <span target="#t3" corresp="dictionnaire_TLFiCategoriesTEI#l42601">
             <fs>
                <f name="lemma">
                   <symbol value="langue"/>
@@ -230,7 +230,7 @@
                </f>
             </fs>
          </span>
-         <span corresp="dictionnaire_TLFiCategoriesTEI#l54448">
+         <span target="#t4" corresp="dictionnaire_TLFiCategoriesTEI#l54448">
             <fs>
                <f name="lemma">
                   <symbol value="parler"/>
@@ -242,7 +242,7 @@
                </f>
             </fs>
          </span>
-         <span corresp="#noTS">
+         <span target="#t5" corresp="#noTS">
             <fs>
                <f name="lemma">
                   <symbol value="en"/>
