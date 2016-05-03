@@ -187,10 +187,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <domain>linguistique</domain>
-            <purpose>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
-         </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>linguistique</p>
+               <p>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</p>
+            </projectDesc>
+         </encodingDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">
          <teiHeader>
@@ -215,26 +217,33 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-1:notice:tfidf:sequences_nom_adj" version="1.0">
+                     <label>lina-1:notice:tfidf:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <ns:listAnnotation>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi1kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw1">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">activité</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">activité</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi1kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw2">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">alignements</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">alignements</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi1kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw3">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">clôture</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
@@ -262,6 +271,13 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo>
+                     <application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi1kw1">
@@ -366,26 +382,33 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-1:notice:topicrank:sequences_nom_adj" version="1.0">
+                     <label>lina-1:notice:topicrank:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <ns:listAnnotation>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi2kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw1">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">clôture</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi2kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw2">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">corpus</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">corpus</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi2kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw3">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">étude interactionnelle</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">étude interactionnelle</term>
                   </tig>
                </langSet>
             </termEntry>
@@ -413,6 +436,13 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo>
+                     <application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi2kw1">

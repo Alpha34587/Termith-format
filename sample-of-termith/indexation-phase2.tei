@@ -187,10 +187,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <domain>linguistique</domain>
-            <purpose>La phase 2 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
-         </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>linguistique</p>
+               <p>La phase 2 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</p>
+            </projectDesc>
+         </encodingDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">
          <teiHeader>
@@ -215,6 +217,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-2:notice_body:tfidf:sequences_nom_adj" version="1.0">
+                     <label>lina-2:notice_body:tfidf:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw1">
@@ -261,6 +270,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi1kw1">
@@ -365,6 +380,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-2:notice_body:topicrank:sequences_nom_adj" version="1.0">
+                     <label>lina-2:notice_body:topicrank:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw1">
@@ -411,6 +433,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi2kw1">
@@ -515,6 +543,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-2:notice_body:topicrank_termsuite:candidats_termes" version="1.0">
+                     <label>lina-2:notice_body:topicrank_termsuite:candidats_termes</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
@@ -561,6 +596,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi3kw1">

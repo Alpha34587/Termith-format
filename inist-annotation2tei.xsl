@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal" exclude-result-prefixes="#all">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal" xmlns:tbx="http://www.tbx.org" exclude-result-prefixes="#all">
 
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
@@ -29,10 +29,19 @@
     </xsl:element>
   </xsl:template>
 
-  <xsl:template match="tei:textDesc">
-    <xsl:copy-of select="tei:domain"/>
-    <xsl:copy-of select="tei:purpose"/>
+  <xsl:template match="tei:profileDesc[tei:textDesc]">
+    <xsl:element name="encodingDesc">
+    <projectDesc>
+      <p>
+	<xsl:value-of select="//tei:domain"/>
+      </p>
+      <p>
+	<xsl:value-of select="//tei:purpose"/>
+      </p>
+    </projectDesc>
+    </xsl:element>
   </xsl:template>
+  
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
   
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">
@@ -58,6 +67,11 @@
 	<p>annotation générée automatiquement dans le cadre du projet TermITH</p>
       </xsl:element>
     </xsl:element>
+    <xsl:if test="preceding-sibling::tei:encodingDesc/*">
+    <encodingDesc>
+      <xsl:copy-of select="preceding-sibling::tei:encodingDesc/*"/>
+    </encodingDesc>
+    </xsl:if>
   </xsl:template>
 
   <!-- traitement des annotations -->
@@ -113,4 +127,37 @@
       </xsl:element>
   </xsl:template>
 
+  <!-- traitement des tbx -->
+  
+  <xsl:template match="@xml:ns" mode="tbx"/>
+  
+  <xsl:template match="@xml:id[contains(.,'#')]" mode="tbx">
+    <xsl:attribute name="xml:id">
+      <xsl:value-of select="substring-after(.,'#')"/>
+    </xsl:attribute>
+  </xsl:template>
+  
+  <xsl:template match="tei:termEntry[@xml:ns]">
+    <xsl:element name="{local-name()}" namespace="{@xml:ns}">
+      <xsl:apply-templates select="@* | node()" mode="tbx"/>
+    </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="tei:term" mode="tbx">
+    <xsl:copy>
+      <xsl:apply-templates select="@xml:ns" mode="tbx"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="*" mode="tbx">
+    <xsl:element name="{local-name()}" namespace="http://www.tbx.org">
+      <xsl:apply-templates select="@* | node()" mode="tbx"/>
+    </xsl:element>
+  </xsl:template>
+  
+  <xsl:template match="@* | processing-instruction() | comment()" mode="tbx">
+	<xsl:copy/>
+  </xsl:template>
+  
 </xsl:stylesheet>

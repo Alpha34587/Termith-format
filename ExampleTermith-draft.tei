@@ -607,10 +607,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <domain>linguistique</domain>
-            <purpose>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
-         </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>linguistique</p>
+               <p>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</p>
+            </projectDesc>
+         </encodingDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">
          <teiHeader>
@@ -635,26 +637,33 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-1:notice:tfidf:sequences_nom_adj" version="1.0">
+                     <label>lina-1:notice:tfidf:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <ns:listAnnotation>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi1kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw1">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">activité</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">activité</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi1kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw2">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">alignements</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">alignements</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi1kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw3">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">clôture</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
@@ -682,6 +691,13 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo>
+                     <application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi1kw1">
@@ -786,26 +802,33 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-1:notice:topicrank:sequences_nom_adj" version="1.0">
+                     <label>lina-1:notice:topicrank:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <ns:listAnnotation>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi2kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw1">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">clôture</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi2kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw2">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">corpus</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">corpus</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xml:ns="http://www.tbx.org" xml:id="#mi2kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw3">
                <langSet xml:lang="fr">
                   <tig>
-                     <term xml:ns="http://www.tei-c.org/ns/1.0">étude interactionnelle</term>
+                     <term xmlns="http://www.tei-c.org/ns/1.0">étude interactionnelle</term>
                   </tig>
                </langSet>
             </termEntry>
@@ -833,6 +856,13 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo>
+                     <application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi2kw1">
@@ -941,10 +971,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <domain>linguistique</domain>
-            <purpose>La phase 2 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
-         </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>linguistique</p>
+               <p>La phase 2 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</p>
+            </projectDesc>
+         </encodingDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">
          <teiHeader>
@@ -969,6 +1001,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-2:notice_body:tfidf:sequences_nom_adj" version="1.0">
+                     <label>lina-2:notice_body:tfidf:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw1">
@@ -1015,6 +1054,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi1kw1">
@@ -1119,6 +1164,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-2:notice_body:topicrank:sequences_nom_adj" version="1.0">
+                     <label>lina-2:notice_body:topicrank:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw1">
@@ -1165,6 +1217,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi2kw1">
@@ -1269,6 +1327,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-2:notice_body:topicrank_termsuite:candidats_termes" version="1.0">
+                     <label>lina-2:notice_body:topicrank_termsuite:candidats_termes</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
@@ -1315,6 +1380,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi3kw1">
@@ -1422,10 +1493,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <domain>linguistique, archéologie, sciences de l'information, chimie</domain>
-            <purpose>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
-         </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>linguistique, archéologie, sciences de l'information, chimie</p>
+               <p>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</p>
+            </projectDesc>
+         </encodingDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
          <teiHeader>
@@ -1450,6 +1523,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-3:notice:topicrank_termsuite:candidats_termes" version="1.0">
+                     <label>lina-3:notice:topicrank_termsuite:candidats_termes</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
@@ -1496,6 +1576,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi3kw1">
@@ -1603,6 +1689,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-3:notice:kea:sequences_nom_adj" version="1.0">
+                     <label>lina-3:notice:kea:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw1">
@@ -1649,6 +1742,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi4kw1">
@@ -1757,6 +1856,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-3:notice:topiccorank:sequences_nom_adj" version="1.0">
+                     <label>lina-3:notice:topiccorank:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw1">
@@ -1803,6 +1909,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi5kw1">
@@ -1912,6 +2024,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-3:notice:topiccorank_termsuite:candidats_termes" version="1.0">
+                     <label>lina-3:notice:topiccorank_termsuite:candidats_termes</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw1">
@@ -1958,6 +2077,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi6kw1">
@@ -2069,10 +2194,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <domain>linguistique, sciences de l'information, chimie</domain>
-            <purpose>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
-         </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>linguistique, sciences de l'information, chimie</p>
+               <p>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</p>
+            </projectDesc>
+         </encodingDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
          <teiHeader>
@@ -2097,6 +2224,14 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-4:notice:topicrank_termsuite:sequences_nom_adj_and_candidats_termes"
+                               version="1.0">
+                     <label>lina-4:notice:topicrank_termsuite:sequences_nom_adj_and_candidats_termes</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
@@ -2143,6 +2278,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi3kw1">
@@ -2247,6 +2388,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-4:notice:kea:sequences_nom_adj" version="1.0">
+                     <label>lina-4:notice:kea:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw1">
@@ -2293,6 +2441,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi4kw1">
@@ -2396,6 +2550,13 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-4:notice:topiccorank:sequences_nom_adj" version="1.0">
+                     <label>lina-4:notice:topiccorank:sequences_nom_adj</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw1">
@@ -2442,6 +2603,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi5kw1">
@@ -2549,6 +2716,14 @@
                   <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+               <appInfo>
+                  <application ident="lina-4:notice:topiccorank_termsuite:sequences_nom_adj_and_candidats_termes"
+                               version="1.0">
+                     <label>lina-4:notice:topiccorank_termsuite:sequences_nom_adj_and_candidats_termes</label>
+                  </application>
+               </appInfo>
+            </encodingDesc>
          </teiHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw1">
@@ -2595,6 +2770,12 @@
                      <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
                   </sourceDesc>
                </fileDesc>
+               <encodingDesc>
+                  <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
+                        <label>idefix</label>
+                     </application>
+                  </appInfo>
+               </encodingDesc>
             </teiHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi6kw1">
