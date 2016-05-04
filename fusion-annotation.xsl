@@ -30,7 +30,10 @@
       </xsl:element>
     </xsl:for-each>
   </xsl:template>
-  
+
+  <xsl:template match="text()[. eq 'FRA']">
+    <xsl:value-of select="'FR'"/>
+  </xsl:template>
   <xsl:template match="ns:standOff"/>
 
   <xsl:template match="tei:teiHeader">

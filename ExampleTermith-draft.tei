@@ -61,7 +61,7 @@
                      <affiliation>
                         <orgName>Université Lyon 2-ICAR</orgName>
                         <address>
-                           <country>FRA</country>
+                           <country>FR</country>
                         </address>
                      </affiliation>
                   </author>
@@ -73,7 +73,7 @@
                      <affiliation>
                         <orgName>CNRS-ICAR</orgName>
                         <address>
-                           <country>FRA</country>
+                           <country>FR</country>
                         </address>
                      </affiliation>
                   </author>
@@ -92,7 +92,7 @@
                      <affiliation>
                         <orgName>Université Stendhal-Grenoble 3/Laboratoire Lidilem</orgName>
                         <address>
-                           <country>FRA</country>
+                           <country>FR</country>
                         </address>
                      </affiliation>
                   </author>
@@ -100,7 +100,7 @@
                   <imprint>
                      <pubPlace>
                         <settlement>Grenoble</settlement>
-                        <country>FRA</country>
+                        <country>FR</country>
                      </pubPlace>
                      <biblScope unit="issue">31</biblScope>
                      <biblScope unit="pp" from="35" to="59">35-59</biblScope>
