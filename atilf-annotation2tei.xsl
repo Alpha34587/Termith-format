@@ -30,6 +30,10 @@
 
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
 
+  <xsl:template match="@role">
+    <xsl:attribute name="role" select="'annotator'"/>
+  </xsl:template>
+  
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">
     <xsl:element name="fileDesc">
 

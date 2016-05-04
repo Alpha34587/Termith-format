@@ -22,6 +22,15 @@
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
 
+  <xsl:template match="tei:keywords[@scheme eq 'cc']">
+    <xsl:for-each select="tei:term[(position() mod 2) = 0]">
+      <xsl:element name="term">
+	<xsl:attribute name="key" select="./preceding-sibling::tei:term[1]"/>
+	<xsl:value-of select="."/>
+      </xsl:element>
+    </xsl:for-each>
+  </xsl:template>
+  
   <xsl:template match="ns:standOff"/>
 
   <xsl:template match="tei:teiHeader">

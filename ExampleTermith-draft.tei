@@ -115,14 +115,9 @@
             <language ident="fr">fre</language>
          </langUsage>
          <textClass>
-            <keywords scheme="cc">
-               <term>52456</term>
-               <term>Sémantique et pragmatique.</term>
-               <term>524XI</term>
-               <term>ETUDES DESCRIPTIVES ET APPLICATIONS DES THEORIES</term>
-               <term>524</term>
-               <term>LINGUISTIQUE</term>
-            </keywords>
+            <term key="52456">Sémantique et pragmatique.</term>
+            <term key="524XI">ETUDES DESCRIPTIVES ET APPLICATIONS DES THEORIES</term>
+            <term key="524">LINGUISTIQUE</term>
             <keywords scheme="inist-francis" xml:lang="fr">
                <term xml:id="ikwfr1" type="controlled" corresp="#French">Français</term>
                <term xml:id="ikwfr2" type="controlled" corresp="#Gesture">Geste</term>
@@ -168,7 +163,7 @@
          <fileDesc>
             <titleStmt>
                <title>analyse morphosyntaxique</title>
-               <author role="xxx">ATILF</author>
+               <author role="annotator">ATILF</author>
             </titleStmt>
             <publicationStmt>
                <distributor>ATILF (Analyse et Traitement Informatique de la Langue Française)</distributor>
@@ -261,7 +256,7 @@
          <fileDesc>
             <titleStmt>
                <title>occurrences de candidats termes</title>
-               <author role="xxx">ATILF</author>
+               <author role="annotator">ATILF</author>
             </titleStmt>
             <publicationStmt>
                <distributor>ATILF (Analyse et Traitement Informatique de la Langue Française)</distributor>
@@ -347,7 +342,7 @@
          <fileDesc>
             <titleStmt>
                <title>syntagmesDefinis</title>
-               <author role="SyntagmesDectection">ATILF</author>
+               <author role="annotator">ATILF</author>
             </titleStmt>
             <publicationStmt>
                <distributor>ATILF (Analyse et Traitement Informatique de la Langue Française)</distributor>
@@ -423,7 +418,7 @@
          <fileDesc>
             <titleStmt>
                <title>syntagmesDefinis</title>
-               <author role="LexiqueTransdisciplinaireDectection">atilf</author>
+               <author role="annotator">atilf</author>
             </titleStmt>
             <publicationStmt>
                <distributor>ATILF (Analyse et Traitement Informatique de la Langue Française)</distributor>
@@ -495,7 +490,7 @@
          <fileDesc>
             <titleStmt>
                <title>glawi</title>
-               <author role="glawiDectection">atilf</author>
+               <author role="annotator">atilf</author>
             </titleStmt>
             <publicationStmt>
                <distributor>ATILF (Analyse et Traitement Informatique de la Langue Française)</distributor>
