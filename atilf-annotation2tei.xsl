@@ -51,6 +51,10 @@
     <xsl:copy-of select="preceding-sibling::tei:encodingDesc"/>
   </xsl:template>
 
+  <xsl:template match="tei:q/text()[. = 'ANR-12-CORD-0029']">
+    <xsl:value-of select="'the #Termith-project,ANR-12-CORD-0029'"/>
+  </xsl:template>
+
   <!-- traitement des annotations -->
   <xsl:template match="tei:span">
     <xsl:copy>
@@ -60,7 +64,7 @@
       </xsl:if>
 
 
-      <xsl:if test="@corresp">
+      <xsl:if test="@corresp[not(ancestor::ns:standOff/@type = 'wordForms')]">
 	<xsl:attribute name="corresp">
 	<xsl:value-of select="replace(@corresp,'-#',' #')"/>
 	</xsl:attribute>
@@ -76,11 +80,9 @@
 	    <xsl:choose>
 	      <xsl:when test="ancestor::ns:standOff/@type = 'wordForms'">
 		<xsl:attribute name="name" select="'lemma'"/>
-		<symbol>
-		  <xsl:attribute name="value">
+		<string>
 		    <xsl:value-of select="./@lemma"/>
-		  </xsl:attribute>
-		</symbol>
+		</string>
 	      </xsl:when>
 	      <xsl:otherwise>
 		<xsl:attribute name="name" select="'inflexionsWords'"/>

@@ -38,8 +38,19 @@
     <xsl:value-of select="'FR'"/>
   </xsl:template>
 
+  <xsl:template match="tei:q/text()[. = 'ANR-12-CORD-0029']">
+    <xsl:value-of select="'the #Termith-project,ANR-12-CORD-0029'"/>
+  </xsl:template>
+
   <xsl:template match="ns:standOff"/>
 
+  <xsl:template match="tei:publicationStmt//tei:idno[@type [. = 'inistIdentifier']]">
+    <xsl:copy>
+      <xsl:attribute name="type" select="documentnumber"/>
+      <xsl:value-of select="."/>
+    </xsl:copy>
+  </xsl:template>
+    
   <xsl:template match="tei:teiHeader">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()"/>

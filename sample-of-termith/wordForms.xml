@@ -167,8 +167,8 @@
       <ns:soHeader>
          <encodingDesc>
             <appInfo>
-               <application ident="TermSuite" version="2.0">
-                  <label>xxx</label>
+               <application ident="Termith" version="1.0">
+                  <label>atilf:termith:phase9:wordForms</label>
                </application>
             </appInfo>
          </encodingDesc>

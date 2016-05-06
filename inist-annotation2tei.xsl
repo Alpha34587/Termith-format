@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal" xmlns:tbx="http://www.tbx.org" exclude-result-prefixes="#all">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal" xmlns:tbx="http://www.tbx.org" xmlns:func="http://function.org" exclude-result-prefixes="#all">
 
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
@@ -18,12 +18,22 @@
 	<xsl:copy/>
   </xsl:template>
 
+  <xsl:template match="@*[local-name() eq 'target'] | @*[local-name() eq 'from']">
+    <xsl:attribute name="{local-name()}">
+      <xsl:value-of select="func:fixId(base-uri(),.)"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <xsl:template match="text()">
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
 
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
   
+  <xsl:template match="tei:q/text()[. = 'ANR-12-CORD-0029']">
+    <xsl:value-of select="'the #Termith-project,ANR-12-CORD-0029'"/>
+  </xsl:template>
+
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">
       <xsl:copy>
 	<xsl:apply-templates select="@* | node()"/>
@@ -55,8 +65,8 @@
   
   <xsl:template match="tei:span">
     <xsl:copy>
-      <xsl:copy-of select="@from"/>
-      <xsl:copy-of select="@target"/>
+
+      <xsl:apply-templates select="@*"/>
       <xsl:if test="@corresp">
 	<xsl:attribute name="corresp">
 	  <xsl:value-of select="replace(@corresp,'-#',' #')"/>
@@ -64,7 +74,7 @@
       </xsl:if>
       <xsl:if test="tei:link">
 	<ptr>
-	  <xsl:copy-of select="tei:link/@*"/>
+	  <xsl:apply-templates select="tei:link/@*"/>
 	</ptr>
       </xsl:if>
       <xsl:if test="tei:num">
@@ -110,7 +120,7 @@
   
   <xsl:template match="@xml:id[contains(.,'#')]" mode="tbx">
     <xsl:attribute name="xml:id">
-      <xsl:value-of select="substring-after(.,'#')"/>
+      <xsl:value-of select="substring-after(func:fixId(base-uri(),.),'#')"/>
     </xsl:attribute>
   </xsl:template>
   
@@ -136,5 +146,18 @@
   <xsl:template match="@* | processing-instruction() | comment()" mode="tbx">
 	<xsl:copy/>
   </xsl:template>
-  
+
+  <xsl:function name="func:fixId">
+    <xsl:param name="uri"/>
+    <xsl:param name="id"/>
+    <xsl:choose>
+    <xsl:when test="contains($id,'mi') and contains($id, 'kw')">
+    <xsl:variable name="numPhase" select="concat('#p',substring-before(substring-after($uri,'phase'),'.xml'))"/>
+    <xsl:value-of select="replace($id,'#',$numPhase)"/>
+    </xsl:when>
+    <xsl:otherwise>
+    <xsl:value-of select="$id"/>
+    </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
 </xsl:stylesheet>

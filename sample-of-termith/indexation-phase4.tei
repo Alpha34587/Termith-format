@@ -36,7 +36,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>the #Termith-project,ANR-12-CORD-0029</q>
                   </p>
                </licence>
                <licence>
@@ -273,21 +273,21 @@
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#mi3kw1">
+               <span from="#p4mi3kw1">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi3kw2">
+               <span from="#p4mi3kw2">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi3kw3">
+               <span from="#p4mi3kw3">
                   <fs>
                      <f name="pertinence">
                         <numeric value="1"/>
@@ -295,14 +295,14 @@
                   </fs>
                   <note>(P) Forme préférée dans le texte : tour de parole</note>
                </span>
-               <span from="#mi3kw4">
+               <span from="#p4mi3kw4">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi3kw5">
+               <span from="#p4mi3kw5">
                   <ptr type="INISTForm" target="#ikwfr3"/>
                   <fs>
                      <f name="pertinence">
@@ -327,7 +327,7 @@
                   </fs>
                </span>
                <span from="#ikwfr3">
-                  <ptr type="TermithForm" target="#mi3kw5"/>
+                  <ptr type="TermithForm" target="#p4mi3kw5"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -432,35 +432,35 @@
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#mi4kw1">
+               <span from="#p4mi4kw1">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi4kw2">
+               <span from="#p4mi4kw2">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi4kw3">
+               <span from="#p4mi4kw3">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi4kw4">
+               <span from="#p4mi4kw4">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi4kw5">
+               <span from="#p4mi4kw5">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
@@ -492,7 +492,7 @@
                   <note>(S) Forme variante dans le texte : corpus</note>
                </span>
                <span from="#ikwfr4">
-                  <ptr type="TermithForm" target="#mi4kw10"/>
+                  <ptr type="TermithForm" target="#p4mi4kw10"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -590,7 +590,7 @@
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#mi5kw1">
+               <span from="#p4mi5kw1">
                   <ptr type="INISTForm" target="#ikwfr1"/>
                   <fs>
                      <f name="pertinence">
@@ -598,15 +598,15 @@
                      </f>
                   </fs>
                </span>
-               <span from="#mi5kw2">
-                  <ptr type="preferredForm" target="#mi5kw6"/>
+               <span from="#p4mi5kw2">
+                  <ptr type="preferredForm" target="#p4mi5kw6"/>
                   <fs>
                      <f name="pertinence">
                         <numeric value="1"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi5kw3">
+               <span from="#p4mi5kw3">
                   <ptr type="INISTForm" target="#ikwfr8"/>
                   <fs>
                      <f name="pertinence">
@@ -614,14 +614,14 @@
                      </f>
                   </fs>
                </span>
-               <span from="#mi5kw4">
+               <span from="#p4mi5kw4">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi5kw5">
+               <span from="#p4mi5kw5">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
@@ -631,7 +631,7 @@
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
                <span from="#ikwfr1">
-                  <ptr type="TermithForm" target="#mi5kw1"/>
+                  <ptr type="TermithForm" target="#p4mi5kw1"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -646,7 +646,7 @@
                   </fs>
                </span>
                <span from="#ikwfr3">
-                  <ptr type="TermithForm" target="#mi5kw7"/>
+                  <ptr type="TermithForm" target="#p4mi5kw7"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -654,7 +654,7 @@
                   </fs>
                </span>
                <span from="#ikwfr4">
-                  <ptr type="TermithForm" target="#mi5kw6"/>
+                  <ptr type="TermithForm" target="#p4mi5kw6"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -753,14 +753,14 @@
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#mi6kw1">
+               <span from="#p4mi6kw1">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi6kw2">
+               <span from="#p4mi6kw2">
                   <ptr type="INISTForm" target="#ikwfr1"/>
                   <fs>
                      <f name="pertinence">
@@ -768,7 +768,7 @@
                      </f>
                   </fs>
                </span>
-               <span from="#mi6kw3">
+               <span from="#p4mi6kw3">
                   <ptr type="INISTForm" target="#ikwfr8"/>
                   <fs>
                      <f name="pertinence">
@@ -776,15 +776,15 @@
                      </f>
                   </fs>
                </span>
-               <span from="#mi6kw4">
-                  <ptr type="preferredForm" target="#mi6kw8"/>
+               <span from="#p4mi6kw4">
+                  <ptr type="preferredForm" target="#p4mi6kw8"/>
                   <fs>
                      <f name="pertinence">
                         <numeric value="1"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi6kw5">
+               <span from="#p4mi6kw5">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
@@ -794,7 +794,7 @@
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
                <span from="#ikwfr1">
-                  <ptr type="TermithForm" target="#mi6kw2"/>
+                  <ptr type="TermithForm" target="#p4mi6kw2"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -817,7 +817,7 @@
                   <note>(S) Forme variante dans le texte : corpus</note>
                </span>
                <span from="#ikwfr4">
-                  <ptr type="TermithForm" target="#mi6kw8"/>
+                  <ptr type="TermithForm" target="#p4mi6kw8"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>

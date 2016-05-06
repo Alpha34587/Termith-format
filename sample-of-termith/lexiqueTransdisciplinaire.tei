@@ -36,7 +36,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>the #Termith-project,ANR-12-CORD-0029</q>
                   </p>
                </licence>
                <licence>
@@ -166,7 +166,7 @@
                 type="lexiqueTransdisciplinaire">
       <ns:soHeader>
          <titleStmt>
-            <title>syntagmesDefinis</title>
+            <title>lexiqueTransdisciplinaire</title>
             <author role="annotator">atilf</author>
          </titleStmt>
          <publicationStmt>

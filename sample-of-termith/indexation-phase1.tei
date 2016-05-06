@@ -36,7 +36,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>the #Termith-project,ANR-12-CORD-0029</q>
                   </p>
                </licence>
                <licence>
@@ -222,21 +222,21 @@
             </encodingDesc>
          </ns:soHeader>
          <ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p1mi1kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">activité</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p1mi1kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">alignements</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p1mi1kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
@@ -274,14 +274,14 @@
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#mi1kw1">
+               <span from="#p1mi1kw1">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi1kw2">
+               <span from="#p1mi1kw2">
                   <ptr type="INISTForm" target="#ikwfr6"/>
                   <fs>
                      <f name="pertinence">
@@ -289,21 +289,21 @@
                      </f>
                   </fs>
                </span>
-               <span from="#mi1kw3">
+               <span from="#p1mi1kw3">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi1kw4">
+               <span from="#p1mi1kw4">
                   <fs>
                      <f name="pertinence">
                         <numeric value="0"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi1kw5">
+               <span from="#p1mi1kw5">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
@@ -313,7 +313,7 @@
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
                <span from="#ikwfr6">
-                  <ptr type="TermithForm" target="#mi1kw2"/>
+                  <ptr type="TermithForm" target="#p1mi1kw2"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>
@@ -383,21 +383,21 @@
             </encodingDesc>
          </ns:soHeader>
          <ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p1mi2kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p1mi2kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">corpus</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p1mi2kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">étude interactionnelle</term>
@@ -435,28 +435,28 @@
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#mi2kw1">
+               <span from="#p1mi2kw1">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi2kw2">
+               <span from="#p1mi2kw2">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi2kw3">
+               <span from="#p1mi2kw3">
                   <fs>
                      <f name="pertinence">
                         <numeric value="2"/>
                      </f>
                   </fs>
                </span>
-               <span from="#mi2kw4">
+               <span from="#p1mi2kw4">
                   <ptr type="INISTForm" target="#ikwfr1"/>
                   <fs>
                      <f name="pertinence">
@@ -464,7 +464,7 @@
                      </f>
                   </fs>
                </span>
-               <span from="#mi2kw5">
+               <span from="#p1mi2kw5">
                   <ptr type="INISTForm" target="#ikwfr4"/>
                   <fs>
                      <f name="pertinence">
@@ -506,7 +506,7 @@
                   <note>préférence pour langue parlée</note>
                </span>
                <span from="#ikwfr1">
-                  <ptr type="TermithForm" target="#mi2kw4"/>
+                  <ptr type="TermithForm" target="#p1mi2kw4"/>
                   <fs>
                      <f name="silence">
                         <numeric value="0"/>

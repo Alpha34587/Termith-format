@@ -36,7 +36,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>the #Termith-project,ANR-12-CORD-0029</q>
                   </p>
                </licence>
                <licence>
@@ -185,57 +185,57 @@
          </notesStmt>
          <encodingDesc>
             <appInfo>
-               <application ident="TermSuite" version="2.0">
-                  <label>xxx</label>
+               <application ident="Termith" version="1.0">
+                  <label>atilf:termith:phase9:wordForms</label>
                </application>
             </appInfo>
          </encodingDesc>
       </ns:soHeader>
       <ns:listAnnotation>
-         <span target="#t1" corresp="dictionnaire_TLFiCategoriesTEI#l19339">
+         <span target="#t1">
             <fs>
                <f name="lemma">
-                  <symbol value="corpus"/>
+                  <string>corpus</string>
                </f>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
             </fs>
          </span>
-         <span target="#t2" corresp="#noTS">
+         <span target="#t2">
             <fs>
                <f name="lemma">
-                  <symbol value="de"/>
+                  <string>de</string>
                </f>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
             </fs>
          </span>
-         <span target="#t3" corresp="dictionnaire_TLFiCategoriesTEI#l42601">
+         <span target="#t3">
             <fs>
                <f name="lemma">
-                  <symbol value="langue"/>
+                  <string>langue</string>
                </f>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
             </fs>
          </span>
-         <span target="#t4" corresp="dictionnaire_TLFiCategoriesTEI#l54448">
+         <span target="#t4">
             <fs>
                <f name="lemma">
-                  <symbol value="parler"/>
+                  <string>parler</string>
                </f>
                <f name="pos">
                   <symbol value="VER:pper"/>
                </f>
             </fs>
          </span>
-         <span target="#t5" corresp="#noTS">
+         <span target="#t5">
             <fs>
                <f name="lemma">
-                  <symbol value="en"/>
+                  <string>en</string>
                </f>
                <f name="pos">
                   <symbol value="PRP"/>
