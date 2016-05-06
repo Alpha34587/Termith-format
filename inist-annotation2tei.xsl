@@ -22,18 +22,9 @@
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
 
-  <!--traitement du header -->
-  <xsl:template match="ns:soHeader">
-    <xsl:element name="teiHeader">
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:element>
-  </xsl:template>
-
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
   
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">
-    <xsl:element name="fileDesc">
-
       <xsl:copy>
 	<xsl:apply-templates select="@* | node()"/>
       </xsl:copy>
@@ -50,10 +41,9 @@
 		</licence>
 	</availability>
       </xsl:element>
-      <xsl:element name="sourceDesc">
-	<p>annotation générée automatiquement dans le cadre du projet TermITH</p>
+      <xsl:element name="notesStmt">
+	<note>annotation générée automatiquement dans le cadre du projet TermITH</note>
       </xsl:element>
-    </xsl:element>
     <xsl:if test="preceding-sibling::tei:encodingDesc/*">
     <encodingDesc>
       <xsl:copy-of select="preceding-sibling::tei:encodingDesc/*"/>

@@ -164,12 +164,39 @@
    </teiHeader>
    <ns:standOff xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns="http://standoff.proposal"
                 type="indexation-phase3">
-      <teiHeader>
-         <fileDesc>
+      <ns:soHeader>
+         <titleStmt>
+            <title>Evaluation de l'indexation TermITH - phase 3</title>
+            <author role="IndexingEditor">LINA</author>
+            <author role="IndexingEvaluator">INIST</author>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>INIST</distributor>
+            <distributor>LINA</distributor>
+            <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+         </notesStmt>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
+               <domain>linguistique, archéologie, sciences de l'information, chimie</domain>
+            </textDesc>
+         </profileDesc>
+      </ns:soHeader>
+      <ns:standOff xml:id="mi3">
+         <ns:soHeader>
             <titleStmt>
-               <title>Evaluation de l'indexation TermITH - phase 3</title>
+               <title>Indexation TermITH</title>
                <author role="IndexingEditor">LINA</author>
-               <author role="IndexingEvaluator">INIST</author>
             </titleStmt>
             <publicationStmt>
                <distributor>INIST</distributor>
@@ -183,40 +210,9 @@
                   </licence>
                </availability>
             </publicationStmt>
-            <sourceDesc>
-               <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-            </sourceDesc>
-         </fileDesc>
-         <profileDesc>
-            <textDesc>
-               <purpose>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
-               <domain>linguistique, archéologie, sciences de l'information, chimie</domain>
-            </textDesc>
-         </profileDesc>
-      </teiHeader>
-      <ns:standOff xml:id="mi3">
-         <teiHeader>
-            <fileDesc>
-               <titleStmt>
-                  <title>Indexation TermITH</title>
-                  <author role="IndexingEditor">LINA</author>
-               </titleStmt>
-               <publicationStmt>
-                  <distributor>INIST</distributor>
-                  <distributor>LINA</distributor>
-                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                  <availability>
-                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                        </p>
-                     </licence>
-                  </availability>
-               </publicationStmt>
-               <sourceDesc>
-                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-               </sourceDesc>
-            </fileDesc>
+            <notesStmt>
+               <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+            </notesStmt>
             <encodingDesc>
                <appInfo>
                   <application ident="lina-3:notice:topicrank_termsuite:candidats_termes" version="1.0">
@@ -224,7 +220,7 @@
                   </application>
                </appInfo>
             </encodingDesc>
-         </teiHeader>
+         </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
                <langSet xml:lang="fr">
@@ -248,35 +244,33 @@
                </langSet>
             </termEntry>
          </ns:listAnnotation>
-         <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
-               <fileDesc>
-                  <titleStmt>
-                     <title>évaluation indexation</title>
-                     <author role="IndexingEvaluator">INIST</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <distributor>INIST</distributor>
-                     <distributor>LINA</distributor>
-                     <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                     <availability>
-                        <licence target="http://creativecommons.org/licenses/by/4.0/">
-                           <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                           <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                           </p>
-                        </licence>
-                     </availability>
-                  </publicationStmt>
-                  <sourceDesc>
-                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-                  </sourceDesc>
-               </fileDesc>
+         <ns:standOff><!--standOff subordonné au standOff principal--><ns:soHeader>
+               <titleStmt>
+                  <title>évaluation indexation</title>
+                  <author role="IndexingEvaluator">INIST</author>
+               </titleStmt>
+               <publicationStmt>
+                  <distributor>INIST</distributor>
+                  <distributor>LINA</distributor>
+                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+                  <availability>
+                     <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        </p>
+                     </licence>
+                  </availability>
+               </publicationStmt>
+               <notesStmt>
+                  <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+               </notesStmt>
                <encodingDesc>
                   <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
                         <label>idefix</label>
                      </application>
                   </appInfo>
                </encodingDesc>
-            </teiHeader>
+            </ns:soHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi3kw1">
                   <ptr type="INISTForm" target="#ikwfr4"/>
@@ -361,28 +355,26 @@
          </ns:standOff>
       </ns:standOff>
       <ns:standOff xml:id="mi4">
-         <teiHeader>
-            <fileDesc>
-               <titleStmt>
-                  <title>Indexation TermITH</title>
-                  <author role="IndexingEditor">LINA</author>
-               </titleStmt>
-               <publicationStmt>
-                  <distributor>INIST</distributor>
-                  <distributor>LINA</distributor>
-                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                  <availability>
-                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                        </p>
-                     </licence>
-                  </availability>
-               </publicationStmt>
-               <sourceDesc>
-                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-               </sourceDesc>
-            </fileDesc>
+         <ns:soHeader>
+            <titleStmt>
+               <title>Indexation TermITH</title>
+               <author role="IndexingEditor">LINA</author>
+            </titleStmt>
+            <publicationStmt>
+               <distributor>INIST</distributor>
+               <distributor>LINA</distributor>
+               <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">
+                     <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     </p>
+                  </licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+            </notesStmt>
             <encodingDesc>
                <appInfo>
                   <application ident="lina-3:notice:kea:sequences_nom_adj" version="1.0">
@@ -390,7 +382,7 @@
                   </application>
                </appInfo>
             </encodingDesc>
-         </teiHeader>
+         </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw1">
                <langSet xml:lang="fr">
@@ -414,35 +406,33 @@
                </langSet>
             </termEntry>
          </ns:listAnnotation>
-         <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
-               <fileDesc>
-                  <titleStmt>
-                     <title>évaluation indexation</title>
-                     <author role="IndexingEvaluator">INIST</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <distributor>INIST</distributor>
-                     <distributor>LINA</distributor>
-                     <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                     <availability>
-                        <licence target="http://creativecommons.org/licenses/by/4.0/">
-                           <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                           <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                           </p>
-                        </licence>
-                     </availability>
-                  </publicationStmt>
-                  <sourceDesc>
-                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-                  </sourceDesc>
-               </fileDesc>
+         <ns:standOff><!--standOff subordonné au standOff principal--><ns:soHeader>
+               <titleStmt>
+                  <title>évaluation indexation</title>
+                  <author role="IndexingEvaluator">INIST</author>
+               </titleStmt>
+               <publicationStmt>
+                  <distributor>INIST</distributor>
+                  <distributor>LINA</distributor>
+                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+                  <availability>
+                     <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        </p>
+                     </licence>
+                  </availability>
+               </publicationStmt>
+               <notesStmt>
+                  <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+               </notesStmt>
                <encodingDesc>
                   <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
                         <label>idefix</label>
                      </application>
                   </appInfo>
                </encodingDesc>
-            </teiHeader>
+            </ns:soHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi4kw1">
                   <fs>
@@ -528,28 +518,26 @@
          </ns:standOff>
       </ns:standOff>
       <ns:standOff xml:id="mi5">
-         <teiHeader>
-            <fileDesc>
-               <titleStmt>
-                  <title>Indexation TermITH</title>
-                  <author role="IndexingEditor">LINA</author>
-               </titleStmt>
-               <publicationStmt>
-                  <distributor>INIST</distributor>
-                  <distributor>LINA</distributor>
-                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                  <availability>
-                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                        </p>
-                     </licence>
-                  </availability>
-               </publicationStmt>
-               <sourceDesc>
-                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-               </sourceDesc>
-            </fileDesc>
+         <ns:soHeader>
+            <titleStmt>
+               <title>Indexation TermITH</title>
+               <author role="IndexingEditor">LINA</author>
+            </titleStmt>
+            <publicationStmt>
+               <distributor>INIST</distributor>
+               <distributor>LINA</distributor>
+               <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">
+                     <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     </p>
+                  </licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+            </notesStmt>
             <encodingDesc>
                <appInfo>
                   <application ident="lina-3:notice:topiccorank:sequences_nom_adj" version="1.0">
@@ -557,7 +545,7 @@
                   </application>
                </appInfo>
             </encodingDesc>
-         </teiHeader>
+         </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw1">
                <langSet xml:lang="fr">
@@ -581,35 +569,33 @@
                </langSet>
             </termEntry>
          </ns:listAnnotation>
-         <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
-               <fileDesc>
-                  <titleStmt>
-                     <title>évaluation indexation</title>
-                     <author role="IndexingEvaluator">INIST</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <distributor>INIST</distributor>
-                     <distributor>LINA</distributor>
-                     <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                     <availability>
-                        <licence target="http://creativecommons.org/licenses/by/4.0/">
-                           <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                           <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                           </p>
-                        </licence>
-                     </availability>
-                  </publicationStmt>
-                  <sourceDesc>
-                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-                  </sourceDesc>
-               </fileDesc>
+         <ns:standOff><!--standOff subordonné au standOff principal--><ns:soHeader>
+               <titleStmt>
+                  <title>évaluation indexation</title>
+                  <author role="IndexingEvaluator">INIST</author>
+               </titleStmt>
+               <publicationStmt>
+                  <distributor>INIST</distributor>
+                  <distributor>LINA</distributor>
+                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+                  <availability>
+                     <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        </p>
+                     </licence>
+                  </availability>
+               </publicationStmt>
+               <notesStmt>
+                  <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+               </notesStmt>
                <encodingDesc>
                   <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
                         <label>idefix</label>
                      </application>
                   </appInfo>
                </encodingDesc>
-            </teiHeader>
+            </ns:soHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi5kw1">
                   <ptr type="INISTForm" target="#ikwfr4"/>
@@ -696,28 +682,26 @@
          </ns:standOff>
       </ns:standOff>
       <ns:standOff xml:id="mi6">
-         <teiHeader>
-            <fileDesc>
-               <titleStmt>
-                  <title>Indexation TermITH</title>
-                  <author role="IndexingEditor">LINA</author>
-               </titleStmt>
-               <publicationStmt>
-                  <distributor>INIST</distributor>
-                  <distributor>LINA</distributor>
-                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                  <availability>
-                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                        </p>
-                     </licence>
-                  </availability>
-               </publicationStmt>
-               <sourceDesc>
-                  <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-               </sourceDesc>
-            </fileDesc>
+         <ns:soHeader>
+            <titleStmt>
+               <title>Indexation TermITH</title>
+               <author role="IndexingEditor">LINA</author>
+            </titleStmt>
+            <publicationStmt>
+               <distributor>INIST</distributor>
+               <distributor>LINA</distributor>
+               <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">
+                     <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     </p>
+                  </licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+            </notesStmt>
             <encodingDesc>
                <appInfo>
                   <application ident="lina-3:notice:topiccorank_termsuite:candidats_termes" version="1.0">
@@ -725,7 +709,7 @@
                   </application>
                </appInfo>
             </encodingDesc>
-         </teiHeader>
+         </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
             <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw1">
                <langSet xml:lang="fr">
@@ -749,35 +733,33 @@
                </langSet>
             </termEntry>
          </ns:listAnnotation>
-         <ns:standOff><!--standOff subordonné au standOff principal--><teiHeader>
-               <fileDesc>
-                  <titleStmt>
-                     <title>évaluation indexation</title>
-                     <author role="IndexingEvaluator">INIST</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <distributor>INIST</distributor>
-                     <distributor>LINA</distributor>
-                     <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
-                     <availability>
-                        <licence target="http://creativecommons.org/licenses/by/4.0/">
-                           <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                           <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
-                           </p>
-                        </licence>
-                     </availability>
-                  </publicationStmt>
-                  <sourceDesc>
-                     <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
-                  </sourceDesc>
-               </fileDesc>
+         <ns:standOff><!--standOff subordonné au standOff principal--><ns:soHeader>
+               <titleStmt>
+                  <title>évaluation indexation</title>
+                  <author role="IndexingEvaluator">INIST</author>
+               </titleStmt>
+               <publicationStmt>
+                  <distributor>INIST</distributor>
+                  <distributor>LINA</distributor>
+                  <idno type="termithIdentifier">linguistique_524-06-10299_tei_35.xml</idno>
+                  <availability>
+                     <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
+                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        </p>
+                     </licence>
+                  </availability>
+               </publicationStmt>
+               <notesStmt>
+                  <note>annotation générée automatiquement dans le cadre du projet TermITH</note>
+               </notesStmt>
                <encodingDesc>
                   <appInfo><!--nom de l'outil d'évaluation--><application ident="idefix" version="1.0">
                         <label>idefix</label>
                      </application>
                   </appInfo>
                </encodingDesc>
-            </teiHeader>
+            </ns:soHeader>
             <ns:listAnnotation type="pertinence">
                <span from="#mi6kw1">
                   <ptr type="INISTForm" target="#ikwfr4"/>
