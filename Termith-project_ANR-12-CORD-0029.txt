@@ -1,0 +1,17 @@
+Description
+
+        TermITH est un projet ANR sur 3 ans et demi (2013 - 2016) qui a pour objectif de développer une plateforme d'indexation automatique de textes en sciences humaines et sociales en fançais en s'appuyant sur les termes qu'ils contiennent.
+        Le présent document fait partie du corpus disciplinaire sur lequel les diffférents traittements développés dans TermITH sont testés.
+        Le présent document est le résultat de la fusion entre l'article en texte intégral provenant de l'editeur et sa notice bibliographique provenant de l'INIST-CNRS.
+        La fusion entre la notice et son article est réalisée par Sabine Barreaux.
+
+
+Références
+
+	http://www.atilf.fr/ressources/termith
+	http://www.ortholang.fr/market/applications/termith
+	http://www.ortholang.fr/market/corpora/termith
+	http://www.ortholang.fr/market/tools/termith
+	http://www.ortholang.fr/market/lexicons/termith
+	https://github.com/termith-anr
+	http://www.agence-nationale-recherche.fr/suivi-bilan/editions-2013-et-anterieures/sciences-et-technologies-de-l-information-et-de-la-communication/contenus-numeriques-et-interactions/fiche-projet-contint/?tx_lwmsuivibilan_pi2[CODE]=ANR-12-CORD-0029
