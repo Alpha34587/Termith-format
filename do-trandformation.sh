@@ -8,8 +8,6 @@ saxonb-xslt -s:ExampleTermith-draft.xml -xsl:example-extraction.xsl -ext:on
 
 saxonb-xslt -s:sample-of-termith/candidatsTermes.xml -xsl:atilf-annotation2tei.xsl -o:sample-of-termith/candidatsTermes.tei
 
-saxonb-xslt -s:sample-of-termith/glawi.xml -xsl:atilf-annotation2tei.xsl -o:sample-of-termith/glawi.tei
-
 saxonb-xslt -s:sample-of-termith/lexiqueTransdisciplinaire.xml -xsl:atilf-annotation2tei.xsl -o:sample-of-termith/lexiqueTransdisciplinaire.tei
 
 saxonb-xslt -s:sample-of-termith/syntagmeDefinis.xml -xsl:atilf-annotation2tei.xsl -o:sample-of-termith/syntagmeDefinis.tei
@@ -30,4 +28,4 @@ saxonb-xslt -xsl:fusion-annotation.xsl \
 	    -s:ExampleTermith-draft.xml \
 	    -o:ExampleTermith-draft.tei \
 	    path="sample-of-termith" \
-	    annotationName="wordForms.tei candidatsTermes.tei syntagmeDefinis.tei lexiqueTransdisciplinaire.tei glawi.tei indexation-phase1.tei indexation-phase2.tei indexation-phase3.tei indexation-phase4.tei"
+	    annotationName="wordForms.tei candidatsTermes.tei syntagmeDefinis.tei lexiqueTransdisciplinaire.tei indexation-phase1.tei indexation-phase2.tei indexation-phase3.tei indexation-phase4.tei"
