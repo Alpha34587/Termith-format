@@ -196,11 +196,9 @@
       <ns:listAnnotation>
          <span target="#t1" corresp="#glawi-21685">
             <fs>
-               <f name="lemma">
-                  <symbol value="corpus"/>
+               <f name="inflexionsWords">
+                  <string>corpus</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -208,11 +206,9 @@
          </span>
          <span target="#t2" corresp="#noGlawi">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
+               <f name="inflexionsWords">
+                  <string>de</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
@@ -220,11 +216,9 @@
          </span>
          <span target="#t3" corresp="#noGlawi">
             <fs>
-               <f name="lemma">
-                  <symbol value="langue"/>
+               <f name="inflexionsWords">
+                  <string>langue</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -232,11 +226,9 @@
          </span>
          <span target="#t4" corresp="#glawi-16943">
             <fs>
-               <f name="lemma">
-                  <symbol value="parler"/>
+               <f name="inflexionsWords">
+                  <string>parler</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="VER:pper"/>
                </f>
@@ -244,11 +236,9 @@
          </span>
          <span target="#t5" corresp="#noGlawi">
             <fs>
-               <f name="lemma">
-                  <symbol value="en"/>
+               <f name="inflexionsWords">
+                  <string>en</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>

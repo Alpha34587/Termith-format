@@ -187,12 +187,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <encodingDesc>
-            <projectDesc>
-               <p>linguistique, sciences de l'information, chimie</p>
-               <p>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</p>
-            </projectDesc>
-         </encodingDesc>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
+               <domain>linguistique, sciences de l'information, chimie</domain>
+            </textDesc>
+         </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
          <teiHeader>

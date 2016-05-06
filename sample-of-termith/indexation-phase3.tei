@@ -187,12 +187,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <encodingDesc>
-            <projectDesc>
-               <p>linguistique, archéologie, sciences de l'information, chimie</p>
-               <p>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</p>
-            </projectDesc>
-         </encodingDesc>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
+               <domain>linguistique, archéologie, sciences de l'information, chimie</domain>
+            </textDesc>
+         </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
          <teiHeader>

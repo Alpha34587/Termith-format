@@ -196,40 +196,36 @@
       <ns:listAnnotation>
          <span target="#t1" corresp="#transdisc-169">
             <fs>
-               <f name="lemma">
-                  <symbol value="corpus"/>
+               <f name="inflexionsWords">
+                  <string>corpus</string>
                </f>
             </fs>
          </span>
          <span target="#t85 #t86" corresp="#transdisc-2180">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
-                  <symbol value="plein"/>
+               <f name="inflexionsWords">
+                  <string>de plein</string>
                </f>
             </fs>
          </span>
          <span target="#t280 #t281" corresp="#transdisc-2407">
             <fs>
-               <f name="lemma">
-                  <symbol value="tant"/>
-                  <symbol value="que"/>
+               <f name="inflexionsWords">
+                  <string>tant que</string>
                </f>
             </fs>
          </span>
          <span target="#t288 #t289" corresp="#transdisc-1988">
             <fs>
-               <f name="lemma">
-                  <symbol value="grâce"/>
-                  <symbol value="à"/>
+               <f name="inflexionsWords">
+                  <string>grâce à</string>
                </f>
             </fs>
          </span>
          <span target="#t362 #t363" corresp="#transdisc-1988">
             <fs>
-               <f name="lemma">
-                  <symbol value="grâce"/>
-                  <symbol value="à"/>
+               <f name="inflexionsWords">
+                  <string>grâce à</string>
                </f>
             </fs>
          </span>

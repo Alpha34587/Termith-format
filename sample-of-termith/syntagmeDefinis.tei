@@ -196,44 +196,36 @@
       <ns:listAnnotation>
          <span target="#t17 #t18 #t19" corresp="#syntita-36378">
             <fs>
-               <f name="lemma">
-                  <symbol value="au"/>
-                  <symbol value="sein"/>
-                  <symbol value="de"/>
+               <f name="inflexionsWords">
+                  <string>au sein de</string>
                </f>
             </fs>
          </span>
          <span target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
-                  <symbol value="plein"/>
-                  <symbol value="droit"/>
+               <f name="inflexionsWords">
+                  <string>de plein droit</string>
                </f>
             </fs>
          </span>
          <span target="#t85 #t86 #t87" corresp="#syntita-13719">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
-                  <symbol value="plein"/>
-                  <symbol value="droit"/>
+               <f name="inflexionsWords">
+                  <string>de plein droit</string>
                </f>
             </fs>
          </span>
          <span target="#t92 #t93" corresp="#syntita-14698">
             <fs>
-               <f name="lemma">
-                  <symbol value="entre"/>
-                  <symbol value="autres"/>
+               <f name="inflexionsWords">
+                  <string>entre autres</string>
                </f>
             </fs>
          </span>
          <span target="#t115 #t116 #t117" corresp="#syntita-3498">
             <fs>
-               <f name="lemma">
-                  <symbol value="d'autre"/>
-                  <symbol value="part"/>
+               <f name="inflexionsWords">
+                  <string>d'autre part</string>
                </f>
             </fs>
          </span>

@@ -29,19 +29,6 @@
     </xsl:element>
   </xsl:template>
 
-  <xsl:template match="tei:profileDesc[tei:textDesc]">
-    <xsl:element name="encodingDesc">
-    <projectDesc>
-      <p>
-	<xsl:value-of select="//tei:domain"/>
-      </p>
-      <p>
-	<xsl:value-of select="//tei:purpose"/>
-      </p>
-    </projectDesc>
-    </xsl:element>
-  </xsl:template>
-  
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
   
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">

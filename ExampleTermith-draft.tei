@@ -112,12 +112,14 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">fre</language>
+            <language ident="fr">FR</language>
          </langUsage>
          <textClass>
-            <term key="52456">Sémantique et pragmatique.</term>
-            <term key="524XI">ETUDES DESCRIPTIVES ET APPLICATIONS DES THEORIES</term>
-            <term key="524">LINGUISTIQUE</term>
+            <keywords scheme="cc">
+               <term key="52456">Sémantique et pragmatique.</term>
+               <term key="524XI">ETUDES DESCRIPTIVES ET APPLICATIONS DES THEORIES</term>
+               <term key="524">LINGUISTIQUE</term>
+            </keywords>
             <keywords scheme="inist-francis" xml:lang="fr">
                <term xml:id="ikwfr1" type="controlled" corresp="#French">Français</term>
                <term xml:id="ikwfr2" type="controlled" corresp="#Gesture">Geste</term>
@@ -194,8 +196,6 @@
                <f name="lemma">
                   <symbol value="corpus"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -206,8 +206,6 @@
                <f name="lemma">
                   <symbol value="de"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
@@ -218,8 +216,6 @@
                <f name="lemma">
                   <symbol value="langue"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -230,8 +226,6 @@
                <f name="lemma">
                   <symbol value="parler"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="VER:pper"/>
                </f>
@@ -242,8 +236,6 @@
                <f name="lemma">
                   <symbol value="en"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
@@ -295,43 +287,37 @@
          </interpGrp>
          <span target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105" ana="#noDM #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Corpus"/>
-                  <symbol value="de"/>
-                  <symbol value="Langue"/>
+               <f name="inflexionsWords">
+                  <string>Corpus de Langue</string>
                </f>
             </fs>
          </span>
          <span target="#t1" corresp="#TS2.0-entry-189 #TS1.4-entry-674884" ana="#DM4 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Corpus"/>
+               <f name="inflexionsWords">
+                  <string>Corpus</string>
                </f>
             </fs>
          </span>
          <span target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641" ana="#DM4 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Langue"/>
-                  <symbol value="Parlée"/>
-                  <symbol value="en"/>
-                  <symbol value="Interaction"/>
+               <f name="inflexionsWords">
+                  <string>Langue Parlée en Interaction</string>
                </f>
             </fs>
          </span>
          <span target="#t3 #t4" corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"
                ana="#DM3 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Langue"/>
-                  <symbol value="Parlée"/>
+               <f name="inflexionsWords">
+                  <string>Langue Parlée</string>
                </f>
             </fs>
          </span>
          <span target="#t3" corresp="#TS1.4-entry-331486" ana="#DM1 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Langue"/>
+               <f name="inflexionsWords">
+                  <string>Langue</string>
                </f>
             </fs>
          </span>
@@ -370,44 +356,36 @@
       <ns:listAnnotation>
          <span target="#t17 #t18 #t19" corresp="#syntita-36378">
             <fs>
-               <f name="lemma">
-                  <symbol value="au"/>
-                  <symbol value="sein"/>
-                  <symbol value="de"/>
+               <f name="inflexionsWords">
+                  <string>au sein de</string>
                </f>
             </fs>
          </span>
          <span target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
-                  <symbol value="plein"/>
-                  <symbol value="droit"/>
+               <f name="inflexionsWords">
+                  <string>de plein droit</string>
                </f>
             </fs>
          </span>
          <span target="#t85 #t86 #t87" corresp="#syntita-13719">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
-                  <symbol value="plein"/>
-                  <symbol value="droit"/>
+               <f name="inflexionsWords">
+                  <string>de plein droit</string>
                </f>
             </fs>
          </span>
          <span target="#t92 #t93" corresp="#syntita-14698">
             <fs>
-               <f name="lemma">
-                  <symbol value="entre"/>
-                  <symbol value="autres"/>
+               <f name="inflexionsWords">
+                  <string>entre autres</string>
                </f>
             </fs>
          </span>
          <span target="#t115 #t116 #t117" corresp="#syntita-3498">
             <fs>
-               <f name="lemma">
-                  <symbol value="d'autre"/>
-                  <symbol value="part"/>
+               <f name="inflexionsWords">
+                  <string>d'autre part</string>
                </f>
             </fs>
          </span>
@@ -446,40 +424,36 @@
       <ns:listAnnotation>
          <span target="#t1" corresp="#transdisc-169">
             <fs>
-               <f name="lemma">
-                  <symbol value="corpus"/>
+               <f name="inflexionsWords">
+                  <string>corpus</string>
                </f>
             </fs>
          </span>
          <span target="#t85 #t86" corresp="#transdisc-2180">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
-                  <symbol value="plein"/>
+               <f name="inflexionsWords">
+                  <string>de plein</string>
                </f>
             </fs>
          </span>
          <span target="#t280 #t281" corresp="#transdisc-2407">
             <fs>
-               <f name="lemma">
-                  <symbol value="tant"/>
-                  <symbol value="que"/>
+               <f name="inflexionsWords">
+                  <string>tant que</string>
                </f>
             </fs>
          </span>
          <span target="#t288 #t289" corresp="#transdisc-1988">
             <fs>
-               <f name="lemma">
-                  <symbol value="grâce"/>
-                  <symbol value="à"/>
+               <f name="inflexionsWords">
+                  <string>grâce à</string>
                </f>
             </fs>
          </span>
          <span target="#t362 #t363" corresp="#transdisc-1988">
             <fs>
-               <f name="lemma">
-                  <symbol value="grâce"/>
-                  <symbol value="à"/>
+               <f name="inflexionsWords">
+                  <string>grâce à</string>
                </f>
             </fs>
          </span>
@@ -518,11 +492,9 @@
       <ns:listAnnotation>
          <span target="#t1" corresp="#glawi-21685">
             <fs>
-               <f name="lemma">
-                  <symbol value="corpus"/>
+               <f name="inflexionsWords">
+                  <string>corpus</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -530,11 +502,9 @@
          </span>
          <span target="#t2" corresp="#noGlawi">
             <fs>
-               <f name="lemma">
-                  <symbol value="de"/>
+               <f name="inflexionsWords">
+                  <string>de</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
@@ -542,11 +512,9 @@
          </span>
          <span target="#t3" corresp="#noGlawi">
             <fs>
-               <f name="lemma">
-                  <symbol value="langue"/>
+               <f name="inflexionsWords">
+                  <string>langue</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -554,11 +522,9 @@
          </span>
          <span target="#t4" corresp="#glawi-16943">
             <fs>
-               <f name="lemma">
-                  <symbol value="parler"/>
+               <f name="inflexionsWords">
+                  <string>parler</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="VER:pper"/>
                </f>
@@ -566,11 +532,9 @@
          </span>
          <span target="#t5" corresp="#noGlawi">
             <fs>
-               <f name="lemma">
-                  <symbol value="en"/>
+               <f name="inflexionsWords">
+                  <string>en</string>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
@@ -602,12 +566,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <encodingDesc>
-            <projectDesc>
-               <p>linguistique</p>
-               <p>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</p>
-            </projectDesc>
-         </encodingDesc>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 1 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
+               <domain>linguistique</domain>
+            </textDesc>
+         </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">
          <teiHeader>
@@ -966,12 +930,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <encodingDesc>
-            <projectDesc>
-               <p>linguistique</p>
-               <p>La phase 2 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</p>
-            </projectDesc>
-         </encodingDesc>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 2 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
+               <domain>linguistique</domain>
+            </textDesc>
+         </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi1">
          <teiHeader>
@@ -1488,12 +1452,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <encodingDesc>
-            <projectDesc>
-               <p>linguistique, archéologie, sciences de l'information, chimie</p>
-               <p>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</p>
-            </projectDesc>
-         </encodingDesc>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 3 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant la notice bibliographique (partie "teiHeader")</purpose>
+               <domain>linguistique, archéologie, sciences de l'information, chimie</domain>
+            </textDesc>
+         </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
          <teiHeader>
@@ -2189,12 +2153,12 @@
                <p>annotation générée automatiquement dans le cadre du projet TermITH</p>
             </sourceDesc>
          </fileDesc>
-         <encodingDesc>
-            <projectDesc>
-               <p>linguistique, sciences de l'information, chimie</p>
-               <p>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</p>
-            </projectDesc>
-         </encodingDesc>
+         <profileDesc>
+            <textDesc>
+               <purpose>La phase 4 porte sur l'évaluation de l'indexation proposée par différentes méthodes exploitant l'article en texte intégral (partie "body")</purpose>
+               <domain>linguistique, sciences de l'information, chimie</domain>
+            </textDesc>
+         </profileDesc>
       </teiHeader>
       <ns:standOff xml:id="mi3">
          <teiHeader>

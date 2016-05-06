@@ -23,17 +23,21 @@
   </xsl:template>
 
   <xsl:template match="tei:keywords[@scheme eq 'cc']">
-    <xsl:for-each select="tei:term[(position() mod 2) = 0]">
-      <xsl:element name="term">
-	<xsl:attribute name="key" select="./preceding-sibling::tei:term[1]"/>
-	<xsl:value-of select="."/>
-      </xsl:element>
-    </xsl:for-each>
+    <xsl:copy>
+      <xsl:copy-of select="@scheme"/>
+      <xsl:for-each select="tei:term[(position() mod 2) = 0]">
+	<xsl:element name="term">
+	    <xsl:attribute name="key" select="./preceding-sibling::tei:term[1]"/>
+	    <xsl:value-of select="."/>
+	</xsl:element>
+      </xsl:for-each>
+    </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="text()[. eq 'FRA']">
+  <xsl:template match="text()[(. eq 'FRA') or (. eq 'fre')][ancestor::tei:teiHeader]">
     <xsl:value-of select="'FR'"/>
   </xsl:template>
+
   <xsl:template match="ns:standOff"/>
 
   <xsl:template match="tei:teiHeader">

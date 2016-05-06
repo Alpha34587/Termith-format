@@ -199,8 +199,6 @@
                <f name="lemma">
                   <symbol value="corpus"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -211,8 +209,6 @@
                <f name="lemma">
                   <symbol value="de"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>
@@ -223,8 +219,6 @@
                <f name="lemma">
                   <symbol value="langue"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="NOM"/>
                </f>
@@ -235,8 +229,6 @@
                <f name="lemma">
                   <symbol value="parler"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="VER:pper"/>
                </f>
@@ -247,8 +239,6 @@
                <f name="lemma">
                   <symbol value="en"/>
                </f>
-            </fs>
-            <fs>
                <f name="pos">
                   <symbol value="PRP"/>
                </f>

@@ -207,43 +207,37 @@
          </interpGrp>
          <span target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105" ana="#noDM #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Corpus"/>
-                  <symbol value="de"/>
-                  <symbol value="Langue"/>
+               <f name="inflexionsWords">
+                  <string>Corpus de Langue</string>
                </f>
             </fs>
          </span>
          <span target="#t1" corresp="#TS2.0-entry-189 #TS1.4-entry-674884" ana="#DM4 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Corpus"/>
+               <f name="inflexionsWords">
+                  <string>Corpus</string>
                </f>
             </fs>
          </span>
          <span target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641" ana="#DM4 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Langue"/>
-                  <symbol value="Parlée"/>
-                  <symbol value="en"/>
-                  <symbol value="Interaction"/>
+               <f name="inflexionsWords">
+                  <string>Langue Parlée en Interaction</string>
                </f>
             </fs>
          </span>
          <span target="#t3 #t4" corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"
                ana="#DM3 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Langue"/>
-                  <symbol value="Parlée"/>
+               <f name="inflexionsWords">
+                  <string>Langue Parlée</string>
                </f>
             </fs>
          </span>
          <span target="#t3" corresp="#TS1.4-entry-331486" ana="#DM1 #noDA">
             <fs>
-               <f name="lemma">
-                  <symbol value="Langue"/>
+               <f name="inflexionsWords">
+                  <string>Langue</string>
                </f>
             </fs>
          </span>

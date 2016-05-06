@@ -79,22 +79,28 @@
       </xsl:if>
       
       </xsl:if>
-	<xsl:if test="@lemma">
 	<fs>
-	    <f>
-	      <xsl:attribute name="name" select="'lemma'"/>
-	      <xsl:for-each select="tokenize(@lemma,' ')">
+	<xsl:if test="@lemma">
+	  <f>
+	    <xsl:choose>
+	      <xsl:when test="ancestor::ns:standOff/@type = 'wordForms'">
+		<xsl:attribute name="name" select="'lemma'"/>
 		<symbol>
-		    <xsl:attribute name="value">
-		    <xsl:value-of select="."/>
-		    </xsl:attribute>
+		  <xsl:attribute name="value">
+		    <xsl:value-of select="./@lemma"/>
+		  </xsl:attribute>
 		</symbol>
-	      </xsl:for-each>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:attribute name="name" select="'inflexionsWords'"/>
+		<string>
+		    <xsl:value-of select="./@lemma"/>
+		</string>
+	      </xsl:otherwise>
+	    </xsl:choose>
 	    </f>
-	</fs>
 	</xsl:if>
 	<xsl:if test="@pos">
-	<fs>
 	    <f>
 	      <xsl:attribute name="name" select="'pos'"/>
 	      <symbol>
@@ -103,8 +109,8 @@
 		</xsl:attribute>
 	      </symbol>
 	    </f>
-	</fs>
 	</xsl:if>
+	</fs>
     </xsl:copy>
   </xsl:template>
 
