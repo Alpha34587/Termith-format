@@ -21,7 +21,28 @@
   <xsl:template match="text()">
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
+  
 
+  <!-- rajout des licences -->
+  <xsl:template match="tei:availability">
+     <availability n="licenceCC" resp="TermITH-ORTOLANG">
+   <licence target="http://creativecommons.org/licenses/by/4.0/">
+     <p>The Creative Commons Attribution 4.0 International License
+applies to this document.</p>
+     <p>Any re-use of this resource should attribute its content
+to<q>#TermITH-project_ANR-12-CORD-0029</q></p>
+   </licence>
+ </availability>
+ <availability n="licenceRestreinte" resp="TermITH-ORTOLANG">
+   <licence>
+     <p>Selon la convention signée avec l'éditeur, le présent document
+n'est utilisable que par les partenaires du projet TermITH dans le cadre
+des traitements développés pour TermITH.</p>
+     <p>Ce document n'est pas diffusable en l'état.</p>
+    </licence>
+ </availability>
+  </xsl:template>
+  
   <!-- traitement du header -->
   <xsl:template match="tei:keywords[@scheme eq 'cc']">
     <xsl:copy>
@@ -39,18 +60,7 @@
     <xsl:value-of select="'FR'"/>
   </xsl:template>
 
-  <xsl:template match="tei:q/text()[. = 'ANR-12-CORD-0029']">
-    <xsl:value-of select="'the #Termith-project_ANR-12-CORD-0029'"/>
-  </xsl:template>
-
   <xsl:template match="ns:standOff"/>
-
-  <xsl:template match="tei:publicationStmt//tei:idno[@type [. = 'inistIdentifier']]">
-    <xsl:copy>
-      <xsl:attribute name="type" select="documentnumber"/>
-      <xsl:value-of select="."/>
-    </xsl:copy>
-  </xsl:template>
 
   <!-- injection des nouvelles balises standOff -->
   <xsl:template match="tei:teiHeader">

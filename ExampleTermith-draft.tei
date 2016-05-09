@@ -34,14 +34,20 @@
                <orgName>Inria</orgName>
                <orgName>Lidilem</orgName>
             </authority>
-            <availability>
+            <availability n="licenceCC" resp="TermITH-ORTOLANG">
                <licence target="http://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>the #Termith-project_ANR-12-CORD-0029</q>
+                  <p>The Creative Commons Attribution 4.0 International License
+applies to this document.</p>
+                  <p>Any re-use of this resource should attribute its content
+to<q>#TermITH-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
+            </availability>
+            <availability n="licenceRestreinte" resp="TermITH-ORTOLANG">
                <licence>
-                  <p>Selon la convention signée avec l'éditeur, le présent document n'est utilisable que par les partenaires du projet TermITH dans le cadre des traitements développés pour TermITH.</p>
+                  <p>Selon la convention signée avec l'éditeur, le présent document
+n'est utilisable que par les partenaires du projet TermITH dans le cadre
+des traitements développés pour TermITH.</p>
                   <p>Ce document n'est pas diffusable en l'état.</p>
                </licence>
             </availability>
@@ -172,7 +178,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -253,7 +259,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -331,7 +337,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -397,7 +403,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -465,7 +471,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -493,7 +499,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -545,7 +551,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -654,7 +660,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -706,7 +712,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -819,7 +825,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -847,7 +853,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -898,7 +904,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -1006,7 +1012,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -1057,7 +1063,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -1165,7 +1171,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -1216,7 +1222,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -1327,7 +1333,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -1355,7 +1361,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -1406,7 +1412,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -1517,7 +1523,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -1568,7 +1574,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -1680,7 +1686,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -1731,7 +1737,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -1844,7 +1850,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -1895,7 +1901,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -2010,7 +2016,7 @@
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                  <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                  <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                   </p>
                </licence>
             </availability>
@@ -2038,7 +2044,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -2090,7 +2096,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -2198,7 +2204,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -2249,7 +2255,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -2356,7 +2362,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -2407,7 +2413,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>
@@ -2518,7 +2524,7 @@
                <availability>
                   <licence target="http://creativecommons.org/licenses/by/4.0/">
                      <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                     <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                     <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                      </p>
                   </licence>
                </availability>
@@ -2570,7 +2576,7 @@
                   <availability>
                      <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-                        <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+                        <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
                         </p>
                      </licence>
                   </availability>

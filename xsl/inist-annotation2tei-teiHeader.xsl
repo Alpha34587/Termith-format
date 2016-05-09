@@ -7,10 +7,6 @@
   
   <xsl:template match="tei:encodingDesc[following-sibling::tei:titleStmt]"/>
   
-  <xsl:template match="tei:q/text()[. = 'ANR-12-CORD-0029']">
-    <xsl:value-of select="'the #Termith-project,ANR-12-CORD-0029'"/>
-  </xsl:template>
-
   <xsl:template match="tei:titleStmt[ancestor::ns:standOff]">
       <xsl:copy>
 	<xsl:apply-templates select="@* | node()"/>
@@ -23,7 +19,7 @@
 	<availability>
 		<licence target="http://creativecommons.org/licenses/by/4.0/">
 		    <p>The Creative Commons Attribution 4.0 International License applies to this document.</p>
-		    <p>Any re-use of this resource should attribute its content to<q>ANR-12-CORD-0029</q>
+		    <p>Any re-use of this resource should attribute its content to<q>#Termith-project_ANR-12-CORD-0029</q>
 		    </p>
 		</licence>
 	</availability>
