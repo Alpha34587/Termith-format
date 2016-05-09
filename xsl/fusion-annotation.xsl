@@ -42,6 +42,10 @@ des traitements développés pour TermITH.</p>
     </licence>
  </availability>
   </xsl:template>
+
+  <xsl:template match="tei:idno/@type[. eq 'documentnumber']">
+    <xsl:attribute name="type" select="'inistidentifier'"/>
+  </xsl:template>
   
   <!-- traitement du header -->
   <xsl:template match="tei:keywords[@scheme eq 'cc']">
