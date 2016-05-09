@@ -58,7 +58,7 @@
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
     <xsl:for-each select="tokenize($annotationName,' ')">
-      <xsl:variable name="file" select="concat($path,'/', .)"/>
+      <xsl:variable name="file" select="concat('../',$path,'/', .)"/>
       <xsl:copy-of select="document($file)/tei:TEI/ns:standOff"/> 
     </xsl:for-each>
   </xsl:template>

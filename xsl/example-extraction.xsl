@@ -5,7 +5,7 @@
   
   <xsl:template match="@* | text() | processing-instruction() | comment()"/>
   <xsl:template match="ns:standOff[parent::tei:TEI]">
-    <xsl:variable name="path" select="concat('sample-of-termith/',@type,'.xml')"/>
+    <xsl:variable name="path" select="concat('samples/',@type,'.xml')"/>
     <xsl:result-document href="{$path}">
       <TEI>
 	<xsl:copy-of select="preceding-sibling::tei:teiHeader"/>
