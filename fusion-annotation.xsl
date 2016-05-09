@@ -22,6 +22,7 @@
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
 
+  <!-- traitement du header -->
   <xsl:template match="tei:keywords[@scheme eq 'cc']">
     <xsl:copy>
       <xsl:copy-of select="@scheme"/>
@@ -39,7 +40,7 @@
   </xsl:template>
 
   <xsl:template match="tei:q/text()[. = 'ANR-12-CORD-0029']">
-    <xsl:value-of select="'the #Termith-project,ANR-12-CORD-0029'"/>
+    <xsl:value-of select="'the #Termith-project_ANR-12-CORD-0029'"/>
   </xsl:template>
 
   <xsl:template match="ns:standOff"/>
@@ -50,7 +51,8 @@
       <xsl:value-of select="."/>
     </xsl:copy>
   </xsl:template>
-    
+
+  <!-- injection des nouvelles balises standOff -->
   <xsl:template match="tei:teiHeader">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()"/>
@@ -60,4 +62,5 @@
       <xsl:copy-of select="document($file)/tei:TEI/ns:standOff"/> 
     </xsl:for-each>
   </xsl:template>
+  
 </xsl:stylesheet>
