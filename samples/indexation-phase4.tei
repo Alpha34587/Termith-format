@@ -192,7 +192,7 @@
             </textDesc>
          </profileDesc>
       </ns:soHeader>
-      <ns:standOff xml:id="mi3">
+      <ns:standOff xml:id="p4mi3">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -223,21 +223,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi3kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi3kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">phase suivante</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi3kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">tour</term>
@@ -352,7 +352,7 @@
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
-      <ns:standOff xml:id="mi4">
+      <ns:standOff xml:id="p4mi4">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -382,21 +382,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi4kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">désalignement</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi4kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi4kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi4kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">participants</term>
@@ -510,7 +510,7 @@
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
-      <ns:standOff xml:id="mi5">
+      <ns:standOff xml:id="p4mi5">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -540,21 +540,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi5kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">français</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi5kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">interaction</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi5kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi5kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">pragmatique</term>
@@ -672,7 +672,7 @@
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
-      <ns:standOff xml:id="mi6">
+      <ns:standOff xml:id="p4mi6">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -703,21 +703,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi6kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">français parlé</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi6kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">français</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi6kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p4mi6kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">pragmatique</term>

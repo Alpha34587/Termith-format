@@ -9,9 +9,16 @@
     </xsl:attribute>
   </xsl:template>
   
-  <xsl:template match="@xml:id[contains(.,'#')]">
+  <xsl:template match="ns:standOff//@xml:id">
     <xsl:attribute name="xml:id">
-      <xsl:value-of select="substring-after(func:fixId(base-uri(),.),'#')"/>
+      <xsl:choose>
+	<xsl:when test="contains(.,'#')">
+	  <xsl:value-of select="substring-after(func:fixId(base-uri(),.),'#')"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="func:fixId(base-uri(),.)"/>
+	</xsl:otherwise>
+      </xsl:choose>
     </xsl:attribute>
   </xsl:template>
   
@@ -19,9 +26,9 @@
     <xsl:param name="uri"/>
     <xsl:param name="id"/>
     <xsl:choose>
-      <xsl:when test="contains($id,'mi') and contains($id, 'kw')">
-	<xsl:variable name="numPhase" select="concat('#p',substring-before(substring-after($uri,'phase'),'.xml'))"/>
-	<xsl:value-of select="replace($id,'#',$numPhase)"/>
+      <xsl:when test="contains($id,'mi')">
+	<xsl:variable name="numPhase" select="concat('p',substring-before(substring-after($uri,'phase'),'.xml'),'mi')"/>
+	<xsl:value-of select="replace($id,'mi',$numPhase)"/>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:value-of select="$id"/>

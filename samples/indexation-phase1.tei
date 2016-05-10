@@ -192,7 +192,7 @@
             </textDesc>
          </profileDesc>
       </ns:soHeader>
-      <ns:standOff xml:id="mi1">
+      <ns:standOff xml:id="p1mi1">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -353,7 +353,7 @@
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
-      <ns:standOff xml:id="mi2">
+      <ns:standOff xml:id="p1mi2">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>

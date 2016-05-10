@@ -192,7 +192,7 @@
             </textDesc>
          </profileDesc>
       </ns:soHeader>
-      <ns:standOff xml:id="mi1">
+      <ns:standOff xml:id="p2mi1">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -222,21 +222,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi1kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">désalignement</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi1kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi1kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi1kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">nouvelle clôture</term>
@@ -351,7 +351,7 @@
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
-      <ns:standOff xml:id="mi2">
+      <ns:standOff xml:id="p2mi2">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -381,21 +381,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi2kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi2kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">tour</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi2kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi2kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">phase suivante</term>
@@ -510,7 +510,7 @@
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
-      <ns:standOff xml:id="mi3">
+      <ns:standOff xml:id="p2mi3">
          <ns:soHeader>
             <titleStmt>
                <title>Indexation TermITH</title>
@@ -540,21 +540,21 @@
             </encodingDesc>
          </ns:soHeader>
          <!-- termes-cles --><ns:listAnnotation>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw1">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi3kw1">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">tour</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw2">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi3kw2">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">clôture</term>
                   </tig>
                </langSet>
             </termEntry>
-            <termEntry xmlns="http://www.tbx.org" xml:id="mi3kw3">
+            <termEntry xmlns="http://www.tbx.org" xml:id="p2mi3kw3">
                <langSet xml:lang="fr">
                   <tig>
                      <term xmlns="http://www.tei-c.org/ns/1.0">phase</term>
