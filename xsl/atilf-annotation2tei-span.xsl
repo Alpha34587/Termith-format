@@ -5,24 +5,43 @@
 
   <!-- traitement des annotations -->
   <xsl:template match="tei:span">
-    <xsl:copy>
+      <xsl:copy>
 
-      <xsl:if test="@target">
-	<xsl:copy-of select="@target"/>
-      </xsl:if>
+	<xsl:attribute name="xml:id">
+	    <xsl:value-of select="generate-id(@target)"/>
+	</xsl:attribute>
 
-
-      <xsl:if test="@corresp[not(ancestor::ns:standOff/@type = 'wordForms')]">
-	<xsl:attribute name="corresp">
-	<xsl:value-of select="replace(@corresp,'-#',' #')"/>
+	<xsl:attribute name="target">
+	    <xsl:value-of select="@target"/>
 	</xsl:attribute>
 	
-      <xsl:if test="@ana">
-	<xsl:copy-of select="@ana"/>
-      </xsl:if>
+	<xsl:if test="@corresp[not(ancestor::ns:standOff/@type = 'wordForms')]">
+	    <xsl:attribute name="corresp">
+	    <xsl:value-of select="replace(@corresp,'-#',' #')"/>
+	    </xsl:attribute>
+	</xsl:if>
+      </xsl:copy>
       
-      </xsl:if>
-	<fs>
+      <xsl:element name="interp">
+	  <xsl:attribute name="inst">
+	    <xsl:value-of select="concat('#',generate-id(@target))"/>
+	  </xsl:attribute>
+
+      <xsl:attribute name="ana">
+	<xsl:choose>
+	  <xsl:when test="@ana">
+	    <xsl:value-of select="concat('#',generate-id(.),' ',@ana)"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('#',generate-id(.))"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      </xsl:element>
+      <fs>
+	<xsl:attribute name="xml:id">
+	  <xsl:value-of select="generate-id(.)"/>
+	</xsl:attribute>
 	<xsl:if test="@lemma">
 	  <f>
 	    <xsl:choose>
@@ -52,7 +71,6 @@
 	    </f>
 	</xsl:if>
 	</fs>
-    </xsl:copy>
   </xsl:template>
 
   <xsl:template match="ns:annotations">

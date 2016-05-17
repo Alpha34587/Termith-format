@@ -7,11 +7,15 @@
   
   <xsl:template match="tei:span">
     <xsl:copy>
-
-      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="xml:id" select="generate-id(.)"/>
       <xsl:if test="@corresp">
 	<xsl:attribute name="corresp">
 	  <xsl:value-of select="replace(@corresp,'-#',' #')"/>
+	</xsl:attribute>
+      </xsl:if>
+      <xsl:if test="@from">
+	<xsl:attribute name="from">
+	  <xsl:value-of select="replace(@from,'-#',' #')"/>
 	</xsl:attribute>
       </xsl:if>
       <xsl:if test="tei:link">
@@ -19,8 +23,21 @@
 	  <xsl:apply-templates select="tei:link/@*"/>
 	</ptr>
       </xsl:if>
+      <xsl:if test="tei:note">
+	<xsl:element name="note">
+	    <xsl:value-of select="tei:note"/>
+	</xsl:element>
+      </xsl:if>
+    </xsl:copy>
+    
+    <xsl:element name="interp">
+      <xsl:attribute name="inst" select="concat('#',generate-id(.))"/>
+      <xsl:attribute name="ana" select="concat('#',generate-id(tei:num))"/>
+      </xsl:element>
+      
       <xsl:if test="tei:num">
 	<fs>
+	  <xsl:attribute name="xml:id" select="generate-id(tei:num)"/>
 	  <f>
 	    <xsl:attribute name="name" select="tei:num/@type"/>
 	    <numeric>
@@ -31,8 +48,6 @@
 	  </f>
 	</fs>
       </xsl:if>
-      <xsl:copy-of select="tei:note"/>
-    </xsl:copy>
   </xsl:template>
 
   <xsl:template match="ns:annotationGrp | ns:annotationsGrp"/>

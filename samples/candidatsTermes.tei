@@ -203,42 +203,43 @@
             <interp xml:id="DAOn">Occurrence du candidat terme validée au niveau terminologique selon le système de désambiguïsation utilisé</interp>
             <interp xml:id="DAOff">Occurrence du candidat terme non valide par le système de désambiguïsation</interp>
          </interpGrp>
-         <span target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105" ana="#noDM #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Corpus de Langue</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t1" corresp="#TS2.0-entry-189 #TS1.4-entry-674884" ana="#DM4 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Corpus</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641" ana="#DM4 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Langue Parlée en Interaction</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3 #t4" corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"
-               ana="#DM3 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Langue Parlée</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3" corresp="#TS1.4-entry-331486" ana="#DM1 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Langue</string>
-               </f>
-            </fs>
-         </span>
+         <span xml:id="d3e421a1510" target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105"/>
+         <interp inst="#d3e421a1510" ana="#d3e421 #noDM #noDA"/>
+         <fs xml:id="d3e421">
+            <f name="inflexionsWords">
+               <string>Corpus de Langue</string>
+            </f>
+         </fs>
+         <span xml:id="d3e423a1510" target="#t1"
+               corresp="#TS2.0-entry-189 #TS1.4-entry-674884"/>
+         <interp inst="#d3e423a1510" ana="#d3e423 #DM4 #noDA"/>
+         <fs xml:id="d3e423">
+            <f name="inflexionsWords">
+               <string>Corpus</string>
+            </f>
+         </fs>
+         <span xml:id="d3e425a1510" target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641"/>
+         <interp inst="#d3e425a1510" ana="#d3e425 #DM4 #noDA"/>
+         <fs xml:id="d3e425">
+            <f name="inflexionsWords">
+               <string>Langue Parlée en Interaction</string>
+            </f>
+         </fs>
+         <span xml:id="d3e428a1510" target="#t3 #t4"
+               corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"/>
+         <interp inst="#d3e428a1510" ana="#d3e428 #DM3 #noDA"/>
+         <fs xml:id="d3e428">
+            <f name="inflexionsWords">
+               <string>Langue Parlée</string>
+            </f>
+         </fs>
+         <span xml:id="d3e430a1510" target="#t3" corresp="#TS1.4-entry-331486"/>
+         <interp inst="#d3e430a1510" ana="#d3e430 #DM1 #noDA"/>
+         <fs xml:id="d3e430">
+            <f name="inflexionsWords">
+               <string>Langue</string>
+            </f>
+         </fs>
       </ns:listAnnotation>
    </ns:standOff>
 </TEI>

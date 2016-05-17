@@ -192,41 +192,41 @@
          </encodingDesc>
       </ns:soHeader>
       <ns:listAnnotation>
-         <span target="#t17 #t18 #t19" corresp="#syntita-36378">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>au sein de</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>de plein droit</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t85 #t86 #t87" corresp="#syntita-13719">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>de plein droit</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t92 #t93" corresp="#syntita-14698">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>entre autres</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t115 #t116 #t117" corresp="#syntita-3498">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>d'autre part</string>
-               </f>
-            </fs>
-         </span>
+         <span xml:id="d3e394a1510" target="#t17 #t18 #t19" corresp="#syntita-36378"/>
+         <interp inst="#d3e394a1510" ana="#d3e394"/>
+         <fs xml:id="d3e394">
+            <f name="inflexionsWords">
+               <string>au sein de</string>
+            </f>
+         </fs>
+         <span xml:id="d3e396a1510" target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719"/>
+         <interp inst="#d3e396a1510" ana="#d3e396"/>
+         <fs xml:id="d3e396">
+            <f name="inflexionsWords">
+               <string>de plein droit</string>
+            </f>
+         </fs>
+         <span xml:id="d3e398a1510" target="#t85 #t86 #t87" corresp="#syntita-13719"/>
+         <interp inst="#d3e398a1510" ana="#d3e398"/>
+         <fs xml:id="d3e398">
+            <f name="inflexionsWords">
+               <string>de plein droit</string>
+            </f>
+         </fs>
+         <span xml:id="d3e400a1510" target="#t92 #t93" corresp="#syntita-14698"/>
+         <interp inst="#d3e400a1510" ana="#d3e400"/>
+         <fs xml:id="d3e400">
+            <f name="inflexionsWords">
+               <string>entre autres</string>
+            </f>
+         </fs>
+         <span xml:id="d3e402a1510" target="#t115 #t116 #t117" corresp="#syntita-3498"/>
+         <interp inst="#d3e402a1510" ana="#d3e402"/>
+         <fs xml:id="d3e402">
+            <f name="inflexionsWords">
+               <string>d'autre part</string>
+            </f>
+         </fs>
       </ns:listAnnotation>
    </ns:standOff>
 </TEI>

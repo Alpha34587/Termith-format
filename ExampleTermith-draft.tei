@@ -195,56 +195,56 @@ des traitements développés pour TermITH.</p>
          </encodingDesc>
       </ns:soHeader>
       <ns:listAnnotation>
-         <span target="#t1">
-            <fs>
-               <f name="lemma">
-                  <string>corpus</string>
-               </f>
-               <f name="pos">
-                  <symbol value="NOM"/>
-               </f>
-            </fs>
-         </span>
-         <span target="#t2">
-            <fs>
-               <f name="lemma">
-                  <string>de</string>
-               </f>
-               <f name="pos">
-                  <symbol value="PRP"/>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3">
-            <fs>
-               <f name="lemma">
-                  <string>langue</string>
-               </f>
-               <f name="pos">
-                  <symbol value="NOM"/>
-               </f>
-            </fs>
-         </span>
-         <span target="#t4">
-            <fs>
-               <f name="lemma">
-                  <string>parler</string>
-               </f>
-               <f name="pos">
-                  <symbol value="VER:pper"/>
-               </f>
-            </fs>
-         </span>
-         <span target="#t5">
-            <fs>
-               <f name="lemma">
-                  <string>en</string>
-               </f>
-               <f name="pos">
-                  <symbol value="PRP"/>
-               </f>
-            </fs>
-         </span>
+         <span xml:id="d3e394a1510" target="#t1"/>
+         <interp inst="#d3e394a1510" ana="#d3e394"/>
+         <fs xml:id="d3e394">
+            <f name="lemma">
+               <string>corpus</string>
+            </f>
+            <f name="pos">
+               <symbol value="NOM"/>
+            </f>
+         </fs>
+         <span xml:id="d3e396a1510" target="#t2"/>
+         <interp inst="#d3e396a1510" ana="#d3e396"/>
+         <fs xml:id="d3e396">
+            <f name="lemma">
+               <string>de</string>
+            </f>
+            <f name="pos">
+               <symbol value="PRP"/>
+            </f>
+         </fs>
+         <span xml:id="d3e398a1510" target="#t3"/>
+         <interp inst="#d3e398a1510" ana="#d3e398"/>
+         <fs xml:id="d3e398">
+            <f name="lemma">
+               <string>langue</string>
+            </f>
+            <f name="pos">
+               <symbol value="NOM"/>
+            </f>
+         </fs>
+         <span xml:id="d3e400a1510" target="#t4"/>
+         <interp inst="#d3e400a1510" ana="#d3e400"/>
+         <fs xml:id="d3e400">
+            <f name="lemma">
+               <string>parler</string>
+            </f>
+            <f name="pos">
+               <symbol value="VER:pper"/>
+            </f>
+         </fs>
+         <span xml:id="d3e402a1510" target="#t5"/>
+         <interp inst="#d3e402a1510" ana="#d3e402"/>
+         <fs xml:id="d3e402">
+            <f name="lemma">
+               <string>en</string>
+            </f>
+            <f name="pos">
+               <symbol value="PRP"/>
+            </f>
+         </fs>
       </ns:listAnnotation>
    </ns:standOff>
    <ns:standOff type="candidatsTermes">
@@ -287,42 +287,43 @@ des traitements développés pour TermITH.</p>
             <interp xml:id="DAOn">Occurrence du candidat terme validée au niveau terminologique selon le système de désambiguïsation utilisé</interp>
             <interp xml:id="DAOff">Occurrence du candidat terme non valide par le système de désambiguïsation</interp>
          </interpGrp>
-         <span target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105" ana="#noDM #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Corpus de Langue</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t1" corresp="#TS2.0-entry-189 #TS1.4-entry-674884" ana="#DM4 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Corpus</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641" ana="#DM4 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Langue Parlée en Interaction</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3 #t4" corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"
-               ana="#DM3 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Langue Parlée</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t3" corresp="#TS1.4-entry-331486" ana="#DM1 #noDA">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>Langue</string>
-               </f>
-            </fs>
-         </span>
+         <span xml:id="d3e421a1510" target="#t1 #t2 #t3" corresp="#TS2.0-entry-87105"/>
+         <interp inst="#d3e421a1510" ana="#d3e421 #noDM #noDA"/>
+         <fs xml:id="d3e421">
+            <f name="inflexionsWords">
+               <string>Corpus de Langue</string>
+            </f>
+         </fs>
+         <span xml:id="d3e423a1510" target="#t1"
+               corresp="#TS2.0-entry-189 #TS1.4-entry-674884"/>
+         <interp inst="#d3e423a1510" ana="#d3e423 #DM4 #noDA"/>
+         <fs xml:id="d3e423">
+            <f name="inflexionsWords">
+               <string>Corpus</string>
+            </f>
+         </fs>
+         <span xml:id="d3e425a1510" target="#t3 #t4 #t5 #t6" corresp="#TS1.4-entry-3029641"/>
+         <interp inst="#d3e425a1510" ana="#d3e425 #DM4 #noDA"/>
+         <fs xml:id="d3e425">
+            <f name="inflexionsWords">
+               <string>Langue Parlée en Interaction</string>
+            </f>
+         </fs>
+         <span xml:id="d3e428a1510" target="#t3 #t4"
+               corresp="#TS2.0-entry-89144 #TS1.4-entry-2270264"/>
+         <interp inst="#d3e428a1510" ana="#d3e428 #DM3 #noDA"/>
+         <fs xml:id="d3e428">
+            <f name="inflexionsWords">
+               <string>Langue Parlée</string>
+            </f>
+         </fs>
+         <span xml:id="d3e430a1510" target="#t3" corresp="#TS1.4-entry-331486"/>
+         <interp inst="#d3e430a1510" ana="#d3e430 #DM1 #noDA"/>
+         <fs xml:id="d3e430">
+            <f name="inflexionsWords">
+               <string>Langue</string>
+            </f>
+         </fs>
       </ns:listAnnotation>
    </ns:standOff>
    <ns:standOff type="syntagmeDefinis">
@@ -354,41 +355,41 @@ des traitements développés pour TermITH.</p>
          </encodingDesc>
       </ns:soHeader>
       <ns:listAnnotation>
-         <span target="#t17 #t18 #t19" corresp="#syntita-36378">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>au sein de</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>de plein droit</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t85 #t86 #t87" corresp="#syntita-13719">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>de plein droit</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t92 #t93" corresp="#syntita-14698">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>entre autres</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t115 #t116 #t117" corresp="#syntita-3498">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>d'autre part</string>
-               </f>
-            </fs>
-         </span>
+         <span xml:id="d3e394a1510" target="#t17 #t18 #t19" corresp="#syntita-36378"/>
+         <interp inst="#d3e394a1510" ana="#d3e394"/>
+         <fs xml:id="d3e394">
+            <f name="inflexionsWords">
+               <string>au sein de</string>
+            </f>
+         </fs>
+         <span xml:id="d3e396a1510" target="#t83 #t84 #t85 #t86 #t87" corresp="#syntita-13719"/>
+         <interp inst="#d3e396a1510" ana="#d3e396"/>
+         <fs xml:id="d3e396">
+            <f name="inflexionsWords">
+               <string>de plein droit</string>
+            </f>
+         </fs>
+         <span xml:id="d3e398a1510" target="#t85 #t86 #t87" corresp="#syntita-13719"/>
+         <interp inst="#d3e398a1510" ana="#d3e398"/>
+         <fs xml:id="d3e398">
+            <f name="inflexionsWords">
+               <string>de plein droit</string>
+            </f>
+         </fs>
+         <span xml:id="d3e400a1510" target="#t92 #t93" corresp="#syntita-14698"/>
+         <interp inst="#d3e400a1510" ana="#d3e400"/>
+         <fs xml:id="d3e400">
+            <f name="inflexionsWords">
+               <string>entre autres</string>
+            </f>
+         </fs>
+         <span xml:id="d3e402a1510" target="#t115 #t116 #t117" corresp="#syntita-3498"/>
+         <interp inst="#d3e402a1510" ana="#d3e402"/>
+         <fs xml:id="d3e402">
+            <f name="inflexionsWords">
+               <string>d'autre part</string>
+            </f>
+         </fs>
       </ns:listAnnotation>
    </ns:standOff>
    <ns:standOff type="lexiqueTransdisciplinaire">
@@ -420,41 +421,41 @@ des traitements développés pour TermITH.</p>
          </encodingDesc>
       </ns:soHeader>
       <ns:listAnnotation>
-         <span target="#t1" corresp="#transdisc-169">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>corpus</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t85 #t86" corresp="#transdisc-2180">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>de plein</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t280 #t281" corresp="#transdisc-2407">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>tant que</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t288 #t289" corresp="#transdisc-1988">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>grâce à</string>
-               </f>
-            </fs>
-         </span>
-         <span target="#t362 #t363" corresp="#transdisc-1988">
-            <fs>
-               <f name="inflexionsWords">
-                  <string>grâce à</string>
-               </f>
-            </fs>
-         </span>
+         <span xml:id="d3e394a1510" target="#t1" corresp="#transdisc-169"/>
+         <interp inst="#d3e394a1510" ana="#d3e394"/>
+         <fs xml:id="d3e394">
+            <f name="inflexionsWords">
+               <string>corpus</string>
+            </f>
+         </fs>
+         <span xml:id="d3e396a1510" target="#t85 #t86" corresp="#transdisc-2180"/>
+         <interp inst="#d3e396a1510" ana="#d3e396"/>
+         <fs xml:id="d3e396">
+            <f name="inflexionsWords">
+               <string>de plein</string>
+            </f>
+         </fs>
+         <span xml:id="d3e398a1510" target="#t280 #t281" corresp="#transdisc-2407"/>
+         <interp inst="#d3e398a1510" ana="#d3e398"/>
+         <fs xml:id="d3e398">
+            <f name="inflexionsWords">
+               <string>tant que</string>
+            </f>
+         </fs>
+         <span xml:id="d3e400a1510" target="#t288 #t289" corresp="#transdisc-1988"/>
+         <interp inst="#d3e400a1510" ana="#d3e400"/>
+         <fs xml:id="d3e400">
+            <f name="inflexionsWords">
+               <string>grâce à</string>
+            </f>
+         </fs>
+         <span xml:id="d3e402a1510" target="#t362 #t363" corresp="#transdisc-1988"/>
+         <interp inst="#d3e402a1510" ana="#d3e402"/>
+         <fs xml:id="d3e402">
+            <f name="inflexionsWords">
+               <string>grâce à</string>
+            </f>
+         </fs>
       </ns:listAnnotation>
    </ns:standOff>
    <ns:standOff type="indexation-phase1">
@@ -568,82 +569,86 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p1mi1kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p1mi1kw2">
+               <span xml:id="d5e490" from="#mi1kw1"/>
+               <interp inst="#d5e490" ana="#d5e492"/>
+               <fs xml:id="d5e492">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e496" from="#mi1kw2">
                   <ptr type="INISTForm" target="#ikwfr6"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p1mi1kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p1mi1kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p1mi1kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e496" ana="#d5e498"/>
+               <fs xml:id="d5e498">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e504" from="#mi1kw3"/>
+               <interp inst="#d5e504" ana="#d5e506"/>
+               <fs xml:id="d5e506">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e510" from="#mi1kw4"/>
+               <interp inst="#d5e510" ana="#d5e512"/>
+               <fs xml:id="d5e512">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e516" from="#mi1kw5"/>
+               <interp inst="#d5e516" ana="#d5e518"/>
+               <fs xml:id="d5e518">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr6">
+               <span xml:id="d5e525" from="#ikwfr6">
                   <ptr type="TermithForm" target="#p1mi1kw2"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr3">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr7">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e525" ana="#d5e527"/>
+               <fs xml:id="d5e527">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e533" from="#ikwfr3"/>
+               <interp inst="#d5e533" ana="#d5e535"/>
+               <fs xml:id="d5e535">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e539" from="#ikwfr7">
                   <note>notion absente du résumé</note>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e539" ana="#d5e541"/>
+               <fs xml:id="d5e541">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e548" from="#ikwfr5">
                   <note>préférence pour langue parlée</note>
                </span>
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e548" ana="#d5e550"/>
+               <fs xml:id="d5e550">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e557" from="#ikwfr1"/>
+               <interp inst="#d5e557" ana="#d5e559"/>
+               <fs xml:id="d5e559">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -729,84 +734,90 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p1mi2kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p1mi2kw2">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p1mi2kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p1mi2kw4">
+               <span xml:id="d5e662" from="#mi2kw1"/>
+               <interp inst="#d5e662" ana="#d5e664"/>
+               <fs xml:id="d5e664">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e668" from="#mi2kw2"/>
+               <interp inst="#d5e668" ana="#d5e670"/>
+               <fs xml:id="d5e670">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e674" from="#mi2kw3"/>
+               <interp inst="#d5e674" ana="#d5e676"/>
+               <fs xml:id="d5e676">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e680" from="#mi2kw4">
                   <ptr type="INISTForm" target="#ikwfr1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p1mi2kw5">
+               <interp inst="#d5e680" ana="#d5e682"/>
+               <fs xml:id="d5e682">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e688" from="#mi2kw5">
                   <ptr type="INISTForm" target="#ikwfr4"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
+               <interp inst="#d5e688" ana="#d5e690"/>
+               <fs xml:id="d5e690">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr6">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr3">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e699" from="#ikwfr6"/>
+               <interp inst="#d5e699" ana="#d5e701"/>
+               <fs xml:id="d5e701">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e705" from="#ikwfr3">
                   <note>implicite</note>
                </span>
-               <span from="#ikwfr7">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e705" ana="#d5e707"/>
+               <fs xml:id="d5e707">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e714" from="#ikwfr7">
                   <note>notion absente du résumé</note>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e714" ana="#d5e716"/>
+               <fs xml:id="d5e716">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e723" from="#ikwfr5">
                   <note>préférence pour langue parlée</note>
                </span>
-               <span from="#ikwfr1">
+               <interp inst="#d5e723" ana="#d5e725"/>
+               <fs xml:id="d5e725">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e732" from="#ikwfr1">
                   <ptr type="TermithForm" target="#p1mi2kw4"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
+               <interp inst="#d5e732" ana="#d5e734"/>
+               <fs xml:id="d5e734">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -920,82 +931,86 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p2mi1kw1">
+               <span xml:id="d5e491" from="#mi1kw1">
                   <ptr type="INISTForm" target="#ikwfr6"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p2mi1kw2">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi1kw3">
+               <interp inst="#d5e491" ana="#d5e493"/>
+               <fs xml:id="d5e493">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e499" from="#mi1kw2"/>
+               <interp inst="#d5e499" ana="#d5e501"/>
+               <fs xml:id="d5e501">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e505" from="#mi1kw3">
                   <ptr type="preferredForm" target="#p2mi1kw2"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p2mi1kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi1kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e505" ana="#d5e507"/>
+               <fs xml:id="d5e507">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e513" from="#mi1kw4"/>
+               <interp inst="#d5e513" ana="#d5e515"/>
+               <fs xml:id="d5e515">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e519" from="#mi1kw5"/>
+               <interp inst="#d5e519" ana="#d5e521"/>
+               <fs xml:id="d5e521">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e528" from="#ikwfr1"/>
+               <interp inst="#d5e528" ana="#d5e530"/>
+               <fs xml:id="d5e530">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e534" from="#ikwfr2">
                   <note>secondaire</note>
                </span>
-               <span from="#ikwfr3">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr4">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e534" ana="#d5e536"/>
+               <fs xml:id="d5e536">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e543" from="#ikwfr3"/>
+               <interp inst="#d5e543" ana="#d5e545"/>
+               <fs xml:id="d5e545">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e549" from="#ikwfr4"/>
+               <interp inst="#d5e549" ana="#d5e551"/>
+               <fs xml:id="d5e551">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e555" from="#ikwfr5">
                   <note>implicite</note>
                </span>
+               <interp inst="#d5e555" ana="#d5e557"/>
+               <fs xml:id="d5e557">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1079,82 +1094,86 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p2mi2kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi2kw2">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e664" from="#mi2kw1"/>
+               <interp inst="#d5e664" ana="#d5e666"/>
+               <fs xml:id="d5e666">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e670" from="#mi2kw2">
                   <note>forme préférée dans le texte : tour de parole</note>
                </span>
-               <span from="#p2mi2kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi2kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi2kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e670" ana="#d5e672"/>
+               <fs xml:id="d5e672">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e679" from="#mi2kw3"/>
+               <interp inst="#d5e679" ana="#d5e681"/>
+               <fs xml:id="d5e681">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e685" from="#mi2kw4"/>
+               <interp inst="#d5e685" ana="#d5e687"/>
+               <fs xml:id="d5e687">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e691" from="#mi2kw5"/>
+               <interp inst="#d5e691" ana="#d5e693"/>
+               <fs xml:id="d5e693">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e700" from="#ikwfr1"/>
+               <interp inst="#d5e700" ana="#d5e702"/>
+               <fs xml:id="d5e702">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e706" from="#ikwfr2">
                   <note>secondaire</note>
                </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e706" ana="#d5e708"/>
+               <fs xml:id="d5e708">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e715" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p2mi2kw7"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e715" ana="#d5e717"/>
+               <fs xml:id="d5e717">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e723" from="#ikwfr4"/>
+               <interp inst="#d5e723" ana="#d5e725"/>
+               <fs xml:id="d5e725">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e729" from="#ikwfr5">
                   <note>implicite</note>
                </span>
+               <interp inst="#d5e729" ana="#d5e731"/>
+               <fs xml:id="d5e731">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1238,83 +1257,88 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p2mi3kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e838" from="#mi3kw1">
                   <note>forme préférée dans le texte : tour de parole</note>
                </span>
-               <span from="#p2mi3kw2">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi3kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p2mi3kw4">
+               <interp inst="#d5e838" ana="#d5e840"/>
+               <fs xml:id="d5e840">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e847" from="#mi3kw2"/>
+               <interp inst="#d5e847" ana="#d5e849"/>
+               <fs xml:id="d5e849">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e853" from="#mi3kw3"/>
+               <interp inst="#d5e853" ana="#d5e855"/>
+               <fs xml:id="d5e855">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e859" from="#mi3kw4">
                   <ptr type="INISTForm" target="#ikwfr3"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p2mi3kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e859" ana="#d5e861"/>
+               <fs xml:id="d5e861">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e867" from="#mi3kw5"/>
+               <interp inst="#d5e867" ana="#d5e869"/>
+               <fs xml:id="d5e869">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e876" from="#ikwfr1"/>
+               <interp inst="#d5e876" ana="#d5e878"/>
+               <fs xml:id="d5e878">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e882" from="#ikwfr2">
                   <note>secondaire</note>
                </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e882" ana="#d5e884"/>
+               <fs xml:id="d5e884">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e891" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p2mi3kw4"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e891" ana="#d5e893"/>
+               <fs xml:id="d5e893">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e899" from="#ikwfr4"/>
+               <interp inst="#d5e899" ana="#d5e901"/>
+               <fs xml:id="d5e901">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e905" from="#ikwfr5">
                   <note>implicite</note>
                </span>
+               <interp inst="#d5e905" ana="#d5e907"/>
+               <fs xml:id="d5e907">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1428,85 +1452,92 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p3mi3kw1">
+               <span xml:id="d5e491" from="#mi3kw1">
                   <ptr type="INISTForm" target="#ikwfr4"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi3kw2">
+               <interp inst="#d5e491" ana="#d5e493"/>
+               <fs xml:id="d5e493">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e499" from="#mi3kw2">
                   <ptr type="INISTForm" target="#ikwfr3"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi3kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p3mi3kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p3mi3kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e499" ana="#d5e501"/>
+               <fs xml:id="d5e501">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e507" from="#mi3kw3"/>
+               <interp inst="#d5e507" ana="#d5e509"/>
+               <fs xml:id="d5e509">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e513" from="#mi3kw4"/>
+               <interp inst="#d5e513" ana="#d5e515"/>
+               <fs xml:id="d5e515">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e519" from="#mi3kw5">
                   <note>(P) Forme préférée dans le texte : organisation interactionnelle</note>
                </span>
+               <interp inst="#d5e519" ana="#d5e521"/>
+               <fs xml:id="d5e521">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e531" from="#ikwfr1"/>
+               <interp inst="#d5e531" ana="#d5e533"/>
+               <fs xml:id="d5e533">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e537" from="#ikwfr2">
                   <note>(S) Secondaire.</note>
                </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e537" ana="#d5e539"/>
+               <fs xml:id="d5e539">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e546" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p3mi3kw2"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e546" ana="#d5e548"/>
+               <fs xml:id="d5e548">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e554" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p3mi3kw1"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e554" ana="#d5e556"/>
+               <fs xml:id="d5e556">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e562" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e562" ana="#d5e564"/>
+               <fs xml:id="d5e564">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1590,86 +1621,94 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p3mi4kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p3mi4kw2">
+               <span xml:id="d5e671" from="#mi4kw1"/>
+               <interp inst="#d5e671" ana="#d5e673"/>
+               <fs xml:id="d5e673">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e677" from="#mi4kw2">
                   <ptr type="INISTForm" target="#ikwfr4"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi4kw3">
+               <interp inst="#d5e677" ana="#d5e679"/>
+               <fs xml:id="d5e679">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e685" from="#mi4kw3">
                   <ptr type="INISTForm" target="#ikwfr1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi4kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p3mi4kw5">
+               <interp inst="#d5e685" ana="#d5e687"/>
+               <fs xml:id="d5e687">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e693" from="#mi4kw4"/>
+               <interp inst="#d5e693" ana="#d5e695"/>
+               <fs xml:id="d5e695">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e699" from="#mi4kw5">
                   <ptr type="INISTForm" target="#ikwfr6"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
+               <interp inst="#d5e699" ana="#d5e701"/>
+               <fs xml:id="d5e701">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
+               <span xml:id="d5e710" from="#ikwfr1">
                   <ptr type="TermithForm" target="#p3mi4kw3"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e710" ana="#d5e712"/>
+               <fs xml:id="d5e712">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e718" from="#ikwfr2">
                   <note>(S) Secondaire.</note>
                </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e718" ana="#d5e720"/>
+               <fs xml:id="d5e720">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e727" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p3mi4kw6"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e727" ana="#d5e729"/>
+               <fs xml:id="d5e729">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e735" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p3mi4kw2"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
+               <interp inst="#d5e735" ana="#d5e737"/>
+               <fs xml:id="d5e737">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e743" from="#ikwfr5">
                   <ptr type="TermithForm" target="#p3mi4kw10"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
+               <interp inst="#d5e743" ana="#d5e745"/>
+               <fs xml:id="d5e745">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1753,87 +1792,96 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p3mi5kw1">
+               <span xml:id="d5e851" from="#mi5kw1">
                   <ptr type="INISTForm" target="#ikwfr4"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi5kw2">
+               <interp inst="#d5e851" ana="#d5e853"/>
+               <fs xml:id="d5e853">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e859" from="#mi5kw2">
                   <ptr type="INISTForm" target="#ikwfr1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi5kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p3mi5kw4">
+               <interp inst="#d5e859" ana="#d5e861"/>
+               <fs xml:id="d5e861">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e867" from="#mi5kw3"/>
+               <interp inst="#d5e867" ana="#d5e869"/>
+               <fs xml:id="d5e869">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e873" from="#mi5kw4">
                   <ptr type="preferredForm" target="#p3mi5kw1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi5kw5">
+               <interp inst="#d5e873" ana="#d5e875"/>
+               <fs xml:id="d5e875">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e881" from="#mi5kw5">
                   <ptr type="INISTForm" target="#ikwfr3"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
+               <interp inst="#d5e881" ana="#d5e883"/>
+               <fs xml:id="d5e883">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
+               <span xml:id="d5e894" from="#ikwfr1">
                   <ptr type="TermithForm" target="#p3mi5kw2"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e894" ana="#d5e896"/>
+               <fs xml:id="d5e896">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e902" from="#ikwfr2">
                   <note>(S) Secondaire.</note>
                </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e902" ana="#d5e904"/>
+               <fs xml:id="d5e904">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e911" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p3mi5kw5"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e911" ana="#d5e913"/>
+               <fs xml:id="d5e913">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e919" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p3mi5kw1"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e919" ana="#d5e921"/>
+               <fs xml:id="d5e921">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e927" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e927" ana="#d5e929"/>
+               <fs xml:id="d5e929">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -1917,87 +1965,96 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p3mi6kw1">
+               <span xml:id="d5e1036" from="#mi6kw1">
                   <ptr type="INISTForm" target="#ikwfr4"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi6kw2">
+               <interp inst="#d5e1036" ana="#d5e1038"/>
+               <fs xml:id="d5e1038">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1044" from="#mi6kw2">
                   <ptr type="INISTForm" target="#ikwfr3"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi6kw3">
+               <interp inst="#d5e1044" ana="#d5e1046"/>
+               <fs xml:id="d5e1046">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1052" from="#mi6kw3">
                   <ptr type="INISTForm" target="#ikwfr1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi6kw4">
+               <interp inst="#d5e1052" ana="#d5e1054"/>
+               <fs xml:id="d5e1054">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1060" from="#mi6kw4">
                   <ptr type="preferredForm" target="#p3mi6kw2"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p3mi6kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e1060" ana="#d5e1062"/>
+               <fs xml:id="d5e1062">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1068" from="#mi6kw5"/>
+               <interp inst="#d5e1068" ana="#d5e1070"/>
+               <fs xml:id="d5e1070">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
+               <span xml:id="d5e1077" from="#ikwfr1">
                   <ptr type="TermithForm" target="#p3mi6kw3"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e1077" ana="#d5e1079"/>
+               <fs xml:id="d5e1079">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1085" from="#ikwfr2">
                   <note>(S) Secondaire.</note>
                </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e1085" ana="#d5e1087"/>
+               <fs xml:id="d5e1087">
+                  <f name="silence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1094" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p3mi6kw2"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e1094" ana="#d5e1096"/>
+               <fs xml:id="d5e1096">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1102" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p3mi6kw1"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e1102" ana="#d5e1104"/>
+               <fs xml:id="d5e1104">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1110" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e1110" ana="#d5e1112"/>
+               <fs xml:id="d5e1112">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -2112,82 +2169,86 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p4mi3kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi3kw2">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi3kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e491" from="#mi3kw1"/>
+               <interp inst="#d5e491" ana="#d5e493"/>
+               <fs xml:id="d5e493">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e497" from="#mi3kw2"/>
+               <interp inst="#d5e497" ana="#d5e499"/>
+               <fs xml:id="d5e499">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e503" from="#mi3kw3">
                   <note>(P) Forme préférée dans le texte : tour de parole</note>
                </span>
-               <span from="#p4mi3kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi3kw5">
+               <interp inst="#d5e503" ana="#d5e505"/>
+               <fs xml:id="d5e505">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e512" from="#mi3kw4"/>
+               <interp inst="#d5e512" ana="#d5e514"/>
+               <fs xml:id="d5e514">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e518" from="#mi3kw5">
                   <ptr type="INISTForm" target="#ikwfr3"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
+               <interp inst="#d5e518" ana="#d5e520"/>
+               <fs xml:id="d5e520">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr3">
+               <span xml:id="d5e529" from="#ikwfr1"/>
+               <interp inst="#d5e529" ana="#d5e531"/>
+               <fs xml:id="d5e531">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e535" from="#ikwfr2"/>
+               <interp inst="#d5e535" ana="#d5e537"/>
+               <fs xml:id="d5e537">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e541" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p4mi3kw5"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e541" ana="#d5e543"/>
+               <fs xml:id="d5e543">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e549" from="#ikwfr4"/>
+               <interp inst="#d5e549" ana="#d5e551"/>
+               <fs xml:id="d5e551">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e555" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e555" ana="#d5e557"/>
+               <fs xml:id="d5e557">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -2271,81 +2332,84 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p4mi4kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi4kw2">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi4kw3">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi4kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi4kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <span xml:id="d5e664" from="#mi4kw1"/>
+               <interp inst="#d5e664" ana="#d5e666"/>
+               <fs xml:id="d5e666">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e670" from="#mi4kw2"/>
+               <interp inst="#d5e670" ana="#d5e672"/>
+               <fs xml:id="d5e672">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e676" from="#mi4kw3"/>
+               <interp inst="#d5e676" ana="#d5e678"/>
+               <fs xml:id="d5e678">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e682" from="#mi4kw4"/>
+               <interp inst="#d5e682" ana="#d5e684"/>
+               <fs xml:id="d5e684">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e688" from="#mi4kw5"/>
+               <interp inst="#d5e688" ana="#d5e690"/>
+               <fs xml:id="d5e690">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr3">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
+               <span xml:id="d5e697" from="#ikwfr1"/>
+               <interp inst="#d5e697" ana="#d5e699"/>
+               <fs xml:id="d5e699">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e703" from="#ikwfr2"/>
+               <interp inst="#d5e703" ana="#d5e705"/>
+               <fs xml:id="d5e705">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e709" from="#ikwfr3">
                   <note>(S) Forme variante dans le texte : corpus</note>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e709" ana="#d5e711"/>
+               <fs xml:id="d5e711">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e718" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p4mi4kw10"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e718" ana="#d5e720"/>
+               <fs xml:id="d5e720">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e726" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e726" ana="#d5e728"/>
+               <fs xml:id="d5e728">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -2429,85 +2493,92 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p4mi5kw1">
+               <span xml:id="d5e835" from="#mi5kw1">
                   <ptr type="INISTForm" target="#ikwfr1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p4mi5kw2">
+               <interp inst="#d5e835" ana="#d5e837"/>
+               <fs xml:id="d5e837">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e843" from="#mi5kw2">
                   <ptr type="preferredForm" target="#p4mi5kw6"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p4mi5kw3">
+               <interp inst="#d5e843" ana="#d5e845"/>
+               <fs xml:id="d5e845">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e851" from="#mi5kw3">
                   <ptr type="INISTForm" target="#ikwfr8"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p4mi5kw4">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi5kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e851" ana="#d5e853"/>
+               <fs xml:id="d5e853">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e859" from="#mi5kw4"/>
+               <interp inst="#d5e859" ana="#d5e861"/>
+               <fs xml:id="d5e861">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e865" from="#mi5kw5"/>
+               <interp inst="#d5e865" ana="#d5e867"/>
+               <fs xml:id="d5e867">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
+               <span xml:id="d5e874" from="#ikwfr1">
                   <ptr type="TermithForm" target="#p4mi5kw1"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr3">
+               <interp inst="#d5e874" ana="#d5e876"/>
+               <fs xml:id="d5e876">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e882" from="#ikwfr2"/>
+               <interp inst="#d5e882" ana="#d5e884"/>
+               <fs xml:id="d5e884">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e888" from="#ikwfr3">
                   <ptr type="TermithForm" target="#p4mi5kw7"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e888" ana="#d5e890"/>
+               <fs xml:id="d5e890">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e896" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p4mi5kw6"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e896" ana="#d5e898"/>
+               <fs xml:id="d5e898">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e904" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e904" ana="#d5e906"/>
+               <fs xml:id="d5e906">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
@@ -2592,85 +2663,92 @@ des traitements développés pour TermITH.</p>
                </encodingDesc>
             </ns:soHeader>
             <ns:listAnnotation type="pertinence">
-               <span from="#p4mi6kw1">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#p4mi6kw2">
+               <span xml:id="d5e1013" from="#mi6kw1"/>
+               <interp inst="#d5e1013" ana="#d5e1015"/>
+               <fs xml:id="d5e1015">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1019" from="#mi6kw2">
                   <ptr type="INISTForm" target="#ikwfr1"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p4mi6kw3">
+               <interp inst="#d5e1019" ana="#d5e1021"/>
+               <fs xml:id="d5e1021">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1029" from="#mi6kw3">
                   <ptr type="INISTForm" target="#ikwfr8"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p4mi6kw4">
+               <interp inst="#d5e1029" ana="#d5e1031"/>
+               <fs xml:id="d5e1031">
+                  <f name="pertinence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1037" from="#mi6kw4">
                   <ptr type="preferredForm" target="#p4mi6kw8"/>
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="1"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#p4mi6kw5">
-                  <fs>
-                     <f name="pertinence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
-               </span>
+               <interp inst="#d5e1037" ana="#d5e1039"/>
+               <fs xml:id="d5e1039">
+                  <f name="pertinence">
+                     <numeric value="1"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1045" from="#mi6kw5"/>
+               <interp inst="#d5e1045" ana="#d5e1047"/>
+               <fs xml:id="d5e1047">
+                  <f name="pertinence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
             <ns:listAnnotation type="silence">
-               <span from="#ikwfr1">
+               <span xml:id="d5e1054" from="#ikwfr1">
                   <ptr type="TermithForm" target="#p4mi6kw2"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr2">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
-               </span>
-               <span from="#ikwfr3">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="2"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e1054" ana="#d5e1056"/>
+               <fs xml:id="d5e1056">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1062" from="#ikwfr2"/>
+               <interp inst="#d5e1062" ana="#d5e1064"/>
+               <fs xml:id="d5e1064">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1068" from="#ikwfr3">
                   <note>(S) Forme variante dans le texte : corpus</note>
                </span>
-               <span from="#ikwfr4">
+               <interp inst="#d5e1068" ana="#d5e1070"/>
+               <fs xml:id="d5e1070">
+                  <f name="silence">
+                     <numeric value="2"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1077" from="#ikwfr4">
                   <ptr type="TermithForm" target="#p4mi6kw8"/>
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
                </span>
-               <span from="#ikwfr5">
-                  <fs>
-                     <f name="silence">
-                        <numeric value="0"/>
-                     </f>
-                  </fs>
+               <interp inst="#d5e1077" ana="#d5e1079"/>
+               <fs xml:id="d5e1079">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
+               <span xml:id="d5e1085" from="#ikwfr5">
                   <note>(S) Préférence pour : langue parlée</note>
                </span>
+               <interp inst="#d5e1085" ana="#d5e1087"/>
+               <fs xml:id="d5e1087">
+                  <f name="silence">
+                     <numeric value="0"/>
+                  </f>
+               </fs>
             </ns:listAnnotation>
          </ns:standOff>
       </ns:standOff>
